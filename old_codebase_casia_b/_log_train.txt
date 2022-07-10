@@ -1,0 +1,1558 @@
+73
+4 (20, 16)
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0003
+    weight_decay: 0
+)
+Model initialization complete.
+Training START
+-len(train_loader)- 8007
+iter 100:, hard_loss_metric=0.67741048, full_loss_metric=0.22981611, full_loss_num=1003664.18750000, mean_dist=0.46968567, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.171
+
+iter 200:, hard_loss_metric=0.68143988, full_loss_metric=0.21289043, full_loss_num=768557.81250000, mean_dist=0.66887808, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.266
+
+iter 300:, hard_loss_metric=0.69568652, full_loss_metric=0.21051373, full_loss_num=632034.18750000, mean_dist=0.81900126, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.323
+
+iter 400:, hard_loss_metric=0.70512146, full_loss_metric=0.20995282, full_loss_num=562714.25000000, mean_dist=0.92037153, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.401
+
+iter 500:, hard_loss_metric=0.71738935, full_loss_metric=0.21141347, full_loss_num=507305.25000000, mean_dist=1.01537478, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.440
+
+iter 600:, hard_loss_metric=0.72120786, full_loss_metric=0.21074371, full_loss_num=466789.56250000, mean_dist=1.09217799, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.478
+
+iter 700:, hard_loss_metric=0.72154176, full_loss_metric=0.21051769, full_loss_num=430587.53125000, mean_dist=1.16100681, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.526
+
+iter 800:, hard_loss_metric=0.72514510, full_loss_metric=0.21127528, full_loss_num=405236.18750000, mean_dist=1.22109067, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.561
+
+iter 900:, hard_loss_metric=0.72908103, full_loss_metric=0.21130884, full_loss_num=382702.40625000, mean_dist=1.27568042, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.586
+
+0:21:50.627369
+iter 1000:, hard_loss_metric=0.73192596, full_loss_metric=0.21132876, full_loss_num=368347.53125000, mean_dist=1.31964672, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.604
+
+iter 1100:, hard_loss_metric=0.73325121, full_loss_metric=0.21196951, full_loss_num=347389.15625000, mean_dist=1.37853789, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.638
+
+iter 1200:, hard_loss_metric=0.73488599, full_loss_metric=0.21232757, full_loss_num=332169.12500000, mean_dist=1.42328751, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.654
+
+iter 1300:, hard_loss_metric=0.73795050, full_loss_metric=0.21269803, full_loss_num=316500.09375000, mean_dist=1.46359074, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.672
+
+iter 1400:, hard_loss_metric=0.73973268, full_loss_metric=0.21307164, full_loss_num=310460.28125000, mean_dist=1.49937642, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.684
+
+iter 1500:, hard_loss_metric=0.73689795, full_loss_metric=0.21261188, full_loss_num=292335.78125000, mean_dist=1.54324543, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.713
+
+iter 1600:, hard_loss_metric=0.73811895, full_loss_metric=0.21332334, full_loss_num=284991.53125000, mean_dist=1.58107531, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.710
+
+iter 1700:, hard_loss_metric=0.73777872, full_loss_metric=0.21273781, full_loss_num=279526.90625000, mean_dist=1.60699630, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.739
+
+iter 1800:, hard_loss_metric=0.73605913, full_loss_metric=0.21288942, full_loss_num=268405.78125000, mean_dist=1.63934398, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.727
+
+iter 1900:, hard_loss_metric=0.73460925, full_loss_metric=0.21346149, full_loss_num=259572.29687500, mean_dist=1.67249036, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.740
+
+0:21:35.843294
+iter 2000:, hard_loss_metric=0.73660356, full_loss_metric=0.21345507, full_loss_num=254150.18750000, mean_dist=1.70283747, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.733
+
+iter 2100:, hard_loss_metric=0.73546791, full_loss_metric=0.21326837, full_loss_num=245256.70312500, mean_dist=1.73070681, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.759
+
+iter 2200:, hard_loss_metric=0.73639619, full_loss_metric=0.21352877, full_loss_num=241870.42187500, mean_dist=1.75563383, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.759
+
+iter 2300:, hard_loss_metric=0.73222506, full_loss_metric=0.21329603, full_loss_num=234605.26562500, mean_dist=1.78391492, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.773
+
+iter 2400:, hard_loss_metric=0.73052633, full_loss_metric=0.21327136, full_loss_num=229772.35937500, mean_dist=1.81029880, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.771
+
+iter 2500:, hard_loss_metric=0.73078948, full_loss_metric=0.21294336, full_loss_num=224534.45312500, mean_dist=1.82685781, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.768
+
+iter 2600:, hard_loss_metric=0.72787529, full_loss_metric=0.21344568, full_loss_num=215201.14062500, mean_dist=1.86458957, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.770
+
+iter 2700:, hard_loss_metric=0.72949809, full_loss_metric=0.21354648, full_loss_num=214845.78125000, mean_dist=1.87255824, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.777
+
+iter 2800:, hard_loss_metric=0.73044640, full_loss_metric=0.21430349, full_loss_num=214375.18750000, mean_dist=1.89390504, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.786
+
+iter 2900:, hard_loss_metric=0.72609365, full_loss_metric=0.21357609, full_loss_num=204158.29687500, mean_dist=1.91813505, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.790
+
+0:21:37.463273
+iter 3000:, hard_loss_metric=0.72491419, full_loss_metric=0.21370007, full_loss_num=202981.37500000, mean_dist=1.93590772, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.795
+
+iter 3100:, hard_loss_metric=0.72647458, full_loss_metric=0.21385054, full_loss_num=201371.31250000, mean_dist=1.94709134, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.793
+
+iter 3200:, hard_loss_metric=0.72198123, full_loss_metric=0.21298927, full_loss_num=198405.12500000, mean_dist=1.96551192, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.794
+
+iter 3300:, hard_loss_metric=0.72125763, full_loss_metric=0.21391541, full_loss_num=192469.23437500, mean_dist=1.99633801, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.800
+
+iter 3400:, hard_loss_metric=0.72121102, full_loss_metric=0.21400431, full_loss_num=189909.07812500, mean_dist=2.01020265, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.809
+
+iter 3500:, hard_loss_metric=0.71985000, full_loss_metric=0.21406059, full_loss_num=182864.07812500, mean_dist=2.03743935, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.803
+
+iter 3600:, hard_loss_metric=0.71607649, full_loss_metric=0.21349934, full_loss_num=179831.51562500, mean_dist=2.05190253, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.803
+
+iter 3700:, hard_loss_metric=0.71336675, full_loss_metric=0.21353917, full_loss_num=179004.87500000, mean_dist=2.05781364, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.807
+
+iter 3800:, hard_loss_metric=0.71556032, full_loss_metric=0.21379438, full_loss_num=177086.43750000, mean_dist=2.07544136, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.805
+
+iter 3900:, hard_loss_metric=0.71401793, full_loss_metric=0.21358597, full_loss_num=175239.50000000, mean_dist=2.09006357, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.814
+
+0:21:42.937527
+iter 4000:, hard_loss_metric=0.71191382, full_loss_metric=0.21410289, full_loss_num=171055.71875000, mean_dist=2.11036181, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.816
+
+iter 4100:, hard_loss_metric=0.71033859, full_loss_metric=0.21358715, full_loss_num=169998.23437500, mean_dist=2.11866283, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.826
+
+iter 4200:, hard_loss_metric=0.70849782, full_loss_metric=0.21364513, full_loss_num=163456.20312500, mean_dist=2.14471722, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.815
+
+iter 4300:, hard_loss_metric=0.70939398, full_loss_metric=0.21396813, full_loss_num=164478.85937500, mean_dist=2.14788604, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.822
+
+iter 4400:, hard_loss_metric=0.70519638, full_loss_metric=0.21337044, full_loss_num=161333.18750000, mean_dist=2.16673255, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.826
+
+iter 4500:, hard_loss_metric=0.70499116, full_loss_metric=0.21376264, full_loss_num=157712.45312500, mean_dist=2.17705941, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.826
+
+iter 4600:, hard_loss_metric=0.70496458, full_loss_metric=0.21390145, full_loss_num=160252.70312500, mean_dist=2.18929005, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.830
+
+iter 4700:, hard_loss_metric=0.70058846, full_loss_metric=0.21324579, full_loss_num=155679.59375000, mean_dist=2.20324850, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.833
+
+iter 4800:, hard_loss_metric=0.70280731, full_loss_metric=0.21377096, full_loss_num=153361.85937500, mean_dist=2.21629000, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.829
+
+iter 4900:, hard_loss_metric=0.70113695, full_loss_metric=0.21374342, full_loss_num=150609.21875000, mean_dist=2.23860741, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.829
+
+0:21:38.164329
+iter 5000:, hard_loss_metric=0.70001459, full_loss_metric=0.21424764, full_loss_num=149738.43750000, mean_dist=2.24470711, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.837
+
+iter 5100:, hard_loss_metric=0.69680023, full_loss_metric=0.21362352, full_loss_num=147991.31250000, mean_dist=2.24922872, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.832
+
+iter 5200:, hard_loss_metric=0.70001245, full_loss_metric=0.21432617, full_loss_num=150346.26562500, mean_dist=2.25575614, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.834
+
+iter 5300:, hard_loss_metric=0.69476271, full_loss_metric=0.21374002, full_loss_num=146237.56250000, mean_dist=2.27537417, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.840
+
+iter 5400:, hard_loss_metric=0.69341910, full_loss_metric=0.21320599, full_loss_num=146238.40625000, mean_dist=2.27769303, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.837
+
+iter 5500:, hard_loss_metric=0.69639754, full_loss_metric=0.21484318, full_loss_num=143027.67187500, mean_dist=2.29869819, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.837
+
+iter 5600:, hard_loss_metric=0.69027758, full_loss_metric=0.21402177, full_loss_num=141789.59375000, mean_dist=2.29905367, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.840
+
+iter 5700:, hard_loss_metric=0.68725377, full_loss_metric=0.21349552, full_loss_num=139431.59375000, mean_dist=2.32270455, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.840
+
+iter 5800:, hard_loss_metric=0.68941844, full_loss_metric=0.21349278, full_loss_num=141180.00000000, mean_dist=2.31779242, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.839
+
+iter 5900:, hard_loss_metric=0.68936831, full_loss_metric=0.21437575, full_loss_num=136447.82812500, mean_dist=2.34653926, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.844
+
+0:21:39.229365
+iter 6000:, hard_loss_metric=0.68705297, full_loss_metric=0.21413934, full_loss_num=136279.06250000, mean_dist=2.34858251, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.849
+
+iter 6100:, hard_loss_metric=0.68345535, full_loss_metric=0.21358976, full_loss_num=134129.68750000, mean_dist=2.36427331, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.841
+
+iter 6200:, hard_loss_metric=0.68343019, full_loss_metric=0.21378075, full_loss_num=133341.70312500, mean_dist=2.37480831, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.846
+
+iter 6300:, hard_loss_metric=0.68546599, full_loss_metric=0.21474983, full_loss_num=133846.48437500, mean_dist=2.37492728, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.839
+
+iter 6400:, hard_loss_metric=0.68396574, full_loss_metric=0.21365787, full_loss_num=133631.29687500, mean_dist=2.37354016, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.850
+
+iter 6500:, hard_loss_metric=0.68056184, full_loss_metric=0.21418419, full_loss_num=128790.25000000, mean_dist=2.40086961, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.854
+
+iter 6600:, hard_loss_metric=0.67938215, full_loss_metric=0.21332793, full_loss_num=130197.50000000, mean_dist=2.39707851, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.851
+
+iter 6700:, hard_loss_metric=0.68121064, full_loss_metric=0.21416087, full_loss_num=130260.71093750, mean_dist=2.41533065, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.848
+
+iter 6800:, hard_loss_metric=0.67705321, full_loss_metric=0.21412581, full_loss_num=127255.25781250, mean_dist=2.42109227, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.844
+
+iter 6900:, hard_loss_metric=0.67742682, full_loss_metric=0.21363574, full_loss_num=125797.89843750, mean_dist=2.42795229, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.844
+
+0:21:38.192367
+iter 7000:, hard_loss_metric=0.67701226, full_loss_metric=0.21424060, full_loss_num=125622.42968750, mean_dist=2.43807435, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.841
+
+iter 7100:, hard_loss_metric=0.67470950, full_loss_metric=0.21415630, full_loss_num=125538.07812500, mean_dist=2.43920851, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.852
+
+iter 7200:, hard_loss_metric=0.67621797, full_loss_metric=0.21421249, full_loss_num=125557.75000000, mean_dist=2.44653988, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.850
+
+iter 7300:, hard_loss_metric=0.67382437, full_loss_metric=0.21351244, full_loss_num=124726.96093750, mean_dist=2.45307446, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.851
+
+iter 7400:, hard_loss_metric=0.67496890, full_loss_metric=0.21402639, full_loss_num=123216.36718750, mean_dist=2.46210980, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.855
+
+iter 7500:, hard_loss_metric=0.67207718, full_loss_metric=0.21394430, full_loss_num=123530.31250000, mean_dist=2.46941853, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.847
+
+iter 7600:, hard_loss_metric=0.66767967, full_loss_metric=0.21378990, full_loss_num=118850.57031250, mean_dist=2.49196339, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.851
+
+iter 7700:, hard_loss_metric=0.66776294, full_loss_metric=0.21371716, full_loss_num=119618.86718750, mean_dist=2.49271250, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.852
+
+iter 7800:, hard_loss_metric=0.66672987, full_loss_metric=0.21415691, full_loss_num=118553.61718750, mean_dist=2.51126170, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.856
+
+iter 7900:, hard_loss_metric=0.66422218, full_loss_metric=0.21385168, full_loss_num=118264.99218750, mean_dist=2.51672840, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.847
+
+0:21:33.719401
+iter 8000:, hard_loss_metric=0.66073346, full_loss_metric=0.21311453, full_loss_num=116730.03906250, mean_dist=2.52164006, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.859
+
+iter 8100:, hard_loss_metric=0.66391367, full_loss_metric=0.21387547, full_loss_num=117609.31250000, mean_dist=2.52563953, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.860
+
+iter 8200:, hard_loss_metric=0.66165060, full_loss_metric=0.21371220, full_loss_num=117410.13281250, mean_dist=2.53235984, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.853
+
+iter 8300:, hard_loss_metric=0.66381323, full_loss_metric=0.21424492, full_loss_num=116538.81250000, mean_dist=2.53256321, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.855
+
+iter 8400:, hard_loss_metric=0.66395152, full_loss_metric=0.21410638, full_loss_num=115777.29687500, mean_dist=2.54553676, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.862
+
+iter 8500:, hard_loss_metric=0.66427618, full_loss_metric=0.21431212, full_loss_num=114576.56250000, mean_dist=2.55096841, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.860
+
+iter 8600:, hard_loss_metric=0.66008973, full_loss_metric=0.21484458, full_loss_num=111772.11718750, mean_dist=2.56281614, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.858
+
+iter 8700:, hard_loss_metric=0.65617228, full_loss_metric=0.21353008, full_loss_num=113095.04687500, mean_dist=2.55755424, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.864
+
+iter 8800:, hard_loss_metric=0.65643781, full_loss_metric=0.21394104, full_loss_num=111865.03906250, mean_dist=2.57742310, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.864
+
+iter 8900:, hard_loss_metric=0.65688735, full_loss_metric=0.21406513, full_loss_num=113393.29687500, mean_dist=2.56872797, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.862
+
+0:21:33.901728
+iter 9000:, hard_loss_metric=0.65663743, full_loss_metric=0.21405637, full_loss_num=111460.63281250, mean_dist=2.58028102, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.864
+
+iter 9100:, hard_loss_metric=0.65616149, full_loss_metric=0.21412984, full_loss_num=111418.21093750, mean_dist=2.58728385, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.861
+
+iter 9200:, hard_loss_metric=0.65237379, full_loss_metric=0.21387941, full_loss_num=109483.84375000, mean_dist=2.60711241, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.864
+
+iter 9300:, hard_loss_metric=0.65286368, full_loss_metric=0.21428208, full_loss_num=108034.85156250, mean_dist=2.61178184, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.859
+
+iter 9400:, hard_loss_metric=0.64886755, full_loss_metric=0.21386202, full_loss_num=108497.31250000, mean_dist=2.60856557, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.864
+
+iter 9500:, hard_loss_metric=0.64834231, full_loss_metric=0.21352020, full_loss_num=108857.50000000, mean_dist=2.60940671, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.873
+
+iter 9600:, hard_loss_metric=0.65006483, full_loss_metric=0.21406147, full_loss_num=106545.32812500, mean_dist=2.62583494, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.866
+
+iter 9700:, hard_loss_metric=0.64753014, full_loss_metric=0.21342529, full_loss_num=106469.93750000, mean_dist=2.63882685, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.865
+
+iter 9800:, hard_loss_metric=0.64885402, full_loss_metric=0.21424867, full_loss_num=106101.03906250, mean_dist=2.64035773, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.861
+
+iter 9900:, hard_loss_metric=0.64687419, full_loss_metric=0.21353292, full_loss_num=106245.89843750, mean_dist=2.63661075, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.863
+
+0:21:33.055011
+iter 10000:, hard_loss_metric=0.64291781, full_loss_metric=0.21357419, full_loss_num=103587.64062500, mean_dist=2.65488720, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.869
+
+iter 10100:, hard_loss_metric=0.64341903, full_loss_metric=0.21377893, full_loss_num=104029.03906250, mean_dist=2.66130805, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.863
+
+iter 10200:, hard_loss_metric=0.64710075, full_loss_metric=0.21438523, full_loss_num=106805.96093750, mean_dist=2.65208554, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.866
+
+iter 10300:, hard_loss_metric=0.64392054, full_loss_metric=0.21386772, full_loss_num=104366.61718750, mean_dist=2.66367054, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.869
+
+iter 10400:, hard_loss_metric=0.64184642, full_loss_metric=0.21344960, full_loss_num=103793.88281250, mean_dist=2.66850185, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.869
+
+iter 10500:, hard_loss_metric=0.64355141, full_loss_metric=0.21439967, full_loss_num=102438.32812500, mean_dist=2.67697453, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.870
+
+iter 10600:, hard_loss_metric=0.64058310, full_loss_metric=0.21404593, full_loss_num=102326.42968750, mean_dist=2.68091273, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.867
+
+iter 10700:, hard_loss_metric=0.64120328, full_loss_metric=0.21351147, full_loss_num=102429.63281250, mean_dist=2.68285179, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.874
+
+iter 10800:, hard_loss_metric=0.63859254, full_loss_metric=0.21411966, full_loss_num=101309.34375000, mean_dist=2.69321132, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.870
+
+iter 10900:, hard_loss_metric=0.64110041, full_loss_metric=0.21475309, full_loss_num=101434.40625000, mean_dist=2.70004058, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.865
+
+0:21:30.598912
+iter 11000:, hard_loss_metric=0.63539970, full_loss_metric=0.21341728, full_loss_num=100267.82812500, mean_dist=2.70862699, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.868
+
+iter 11100:, hard_loss_metric=0.63496095, full_loss_metric=0.21383150, full_loss_num=100359.53906250, mean_dist=2.70504522, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.871
+
+iter 11200:, hard_loss_metric=0.63863778, full_loss_metric=0.21417950, full_loss_num=101478.96875000, mean_dist=2.70425344, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.873
+
+iter 11300:, hard_loss_metric=0.63688684, full_loss_metric=0.21418469, full_loss_num=100129.32812500, mean_dist=2.71278191, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.870
+
+iter 11400:, hard_loss_metric=0.63514531, full_loss_metric=0.21398769, full_loss_num=99697.96093750, mean_dist=2.71921730, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.871
+
+iter 11500:, hard_loss_metric=0.63335645, full_loss_metric=0.21342447, full_loss_num=100491.60156250, mean_dist=2.71294427, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.872
+
+iter 11600:, hard_loss_metric=0.62770635, full_loss_metric=0.21348423, full_loss_num=96627.14062500, mean_dist=2.74269438, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.871
+
+iter 11700:, hard_loss_metric=0.63128704, full_loss_metric=0.21413866, full_loss_num=97501.42187500, mean_dist=2.73390007, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.866
+
+iter 11800:, hard_loss_metric=0.63350850, full_loss_metric=0.21403335, full_loss_num=99912.13281250, mean_dist=2.73706126, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 11900:, hard_loss_metric=0.63094240, full_loss_metric=0.21375699, full_loss_num=96824.75781250, mean_dist=2.75534487, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.875
+
+0:21:30.641664
+iter 12000:, hard_loss_metric=0.63030779, full_loss_metric=0.21375239, full_loss_num=96160.32031250, mean_dist=2.75555420, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.875
+
+iter 12100:, hard_loss_metric=0.62920845, full_loss_metric=0.21467030, full_loss_num=95721.50000000, mean_dist=2.75964427, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.875
+
+iter 12200:, hard_loss_metric=0.62698877, full_loss_metric=0.21345815, full_loss_num=97544.10937500, mean_dist=2.74967194, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 12300:, hard_loss_metric=0.62860262, full_loss_metric=0.21387738, full_loss_num=97182.14843750, mean_dist=2.75214672, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 12400:, hard_loss_metric=0.62711775, full_loss_metric=0.21405935, full_loss_num=96835.28906250, mean_dist=2.76547384, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.878
+
+iter 12500:, hard_loss_metric=0.62467629, full_loss_metric=0.21388549, full_loss_num=95582.97656250, mean_dist=2.77630615, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.875
+
+iter 12600:, hard_loss_metric=0.62605482, full_loss_metric=0.21389350, full_loss_num=95811.89062500, mean_dist=2.77267003, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 12700:, hard_loss_metric=0.62285322, full_loss_metric=0.21355075, full_loss_num=95585.38281250, mean_dist=2.77398968, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.872
+
+iter 12800:, hard_loss_metric=0.62292975, full_loss_metric=0.21359578, full_loss_num=95238.20312500, mean_dist=2.78885794, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.880
+
+iter 12900:, hard_loss_metric=0.62421393, full_loss_metric=0.21441738, full_loss_num=95024.27343750, mean_dist=2.78677392, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.878
+
+0:21:34.499454
+iter 13000:, hard_loss_metric=0.62277859, full_loss_metric=0.21353005, full_loss_num=95061.92187500, mean_dist=2.78411317, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 13100:, hard_loss_metric=0.62208438, full_loss_metric=0.21363813, full_loss_num=95240.06250000, mean_dist=2.79325223, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.881
+
+iter 13200:, hard_loss_metric=0.61788160, full_loss_metric=0.21342926, full_loss_num=93920.28906250, mean_dist=2.80500174, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.880
+
+iter 13300:, hard_loss_metric=0.62342227, full_loss_metric=0.21461755, full_loss_num=94825.39843750, mean_dist=2.79691863, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 13400:, hard_loss_metric=0.62158263, full_loss_metric=0.21404339, full_loss_num=93365.03125000, mean_dist=2.79955840, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 13500:, hard_loss_metric=0.62234420, full_loss_metric=0.21435940, full_loss_num=93417.99218750, mean_dist=2.80037713, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.882
+
+iter 13600:, hard_loss_metric=0.61703634, full_loss_metric=0.21321574, full_loss_num=92621.14062500, mean_dist=2.80413723, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 13700:, hard_loss_metric=0.61610329, full_loss_metric=0.21346445, full_loss_num=91671.61718750, mean_dist=2.81997895, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 13800:, hard_loss_metric=0.61616021, full_loss_metric=0.21364832, full_loss_num=91316.46875000, mean_dist=2.82165980, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.879
+
+iter 13900:, hard_loss_metric=0.61502081, full_loss_metric=0.21320412, full_loss_num=92232.28125000, mean_dist=2.82690501, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.874
+
+0:21:32.339765
+iter 14000:, hard_loss_metric=0.61390245, full_loss_metric=0.21363394, full_loss_num=92546.65625000, mean_dist=2.82926583, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.878
+
+iter 14100:, hard_loss_metric=0.61627412, full_loss_metric=0.21401812, full_loss_num=92270.36718750, mean_dist=2.82372355, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.876
+
+iter 14200:, hard_loss_metric=0.60973185, full_loss_metric=0.21304233, full_loss_num=90201.47656250, mean_dist=2.83997488, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.881
+
+iter 14300:, hard_loss_metric=0.61024165, full_loss_metric=0.21456662, full_loss_num=89046.64843750, mean_dist=2.86004424, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.873
+
+iter 14400:, hard_loss_metric=0.61189532, full_loss_metric=0.21349853, full_loss_num=91427.02343750, mean_dist=2.83483744, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.885
+
+iter 14500:, hard_loss_metric=0.61053133, full_loss_metric=0.21349292, full_loss_num=90492.02343750, mean_dist=2.83965516, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 14600:, hard_loss_metric=0.61105925, full_loss_metric=0.21355893, full_loss_num=89833.02343750, mean_dist=2.85701752, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.880
+
+iter 14700:, hard_loss_metric=0.61132568, full_loss_metric=0.21357450, full_loss_num=90356.82812500, mean_dist=2.84816384, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.885
+
+iter 14800:, hard_loss_metric=0.60977286, full_loss_metric=0.21303938, full_loss_num=89325.15625000, mean_dist=2.86072779, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.881
+
+iter 14900:, hard_loss_metric=0.61057764, full_loss_metric=0.21411848, full_loss_num=89147.96875000, mean_dist=2.86291480, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.880
+
+0:21:31.915195
+iter 15000:, hard_loss_metric=0.60443640, full_loss_metric=0.21319927, full_loss_num=87130.25000000, mean_dist=2.88014007, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.877
+
+iter 15100:, hard_loss_metric=0.60722083, full_loss_metric=0.21336412, full_loss_num=89275.02343750, mean_dist=2.86863399, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.883
+
+iter 15200:, hard_loss_metric=0.60729742, full_loss_metric=0.21364328, full_loss_num=88580.82812500, mean_dist=2.87629819, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.882
+
+iter 15300:, hard_loss_metric=0.60943705, full_loss_metric=0.21444900, full_loss_num=88747.60156250, mean_dist=2.87323070, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.883
+
+iter 15400:, hard_loss_metric=0.60532469, full_loss_metric=0.21369559, full_loss_num=88980.00781250, mean_dist=2.87780309, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.882
+
+iter 15500:, hard_loss_metric=0.60559458, full_loss_metric=0.21355860, full_loss_num=87670.82031250, mean_dist=2.87636447, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.885
+
+iter 15600:, hard_loss_metric=0.60479903, full_loss_metric=0.21405075, full_loss_num=86566.95312500, mean_dist=2.89590240, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.884
+
+iter 15700:, hard_loss_metric=0.60559309, full_loss_metric=0.21401617, full_loss_num=86477.59375000, mean_dist=2.90297580, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.880
+
+iter 15800:, hard_loss_metric=0.60114950, full_loss_metric=0.21331413, full_loss_num=86782.64062500, mean_dist=2.89547396, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.878
+
+iter 15900:, hard_loss_metric=0.60136640, full_loss_metric=0.21366562, full_loss_num=87302.45312500, mean_dist=2.89883327, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+0:21:31.171766
+iter 16000:, hard_loss_metric=0.59787077, full_loss_metric=0.21293795, full_loss_num=85358.14062500, mean_dist=2.91149807, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.884
+
+iter 16100:, hard_loss_metric=0.60006887, full_loss_metric=0.21291715, full_loss_num=87337.42968750, mean_dist=2.90191007, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.883
+
+iter 16200:, hard_loss_metric=0.59953767, full_loss_metric=0.21362545, full_loss_num=86258.89843750, mean_dist=2.92295837, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.884
+
+iter 16300:, hard_loss_metric=0.60261697, full_loss_metric=0.21418971, full_loss_num=85929.64843750, mean_dist=2.92082834, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 16400:, hard_loss_metric=0.60182893, full_loss_metric=0.21382216, full_loss_num=86409.64843750, mean_dist=2.92002749, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.891
+
+iter 16500:, hard_loss_metric=0.59674990, full_loss_metric=0.21323681, full_loss_num=86449.47656250, mean_dist=2.92270184, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+iter 16600:, hard_loss_metric=0.59613127, full_loss_metric=0.21373159, full_loss_num=84475.00000000, mean_dist=2.93048787, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 16700:, hard_loss_metric=0.59678870, full_loss_metric=0.21374768, full_loss_num=85726.75000000, mean_dist=2.93104029, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+iter 16800:, hard_loss_metric=0.59998232, full_loss_metric=0.21396676, full_loss_num=86317.96093750, mean_dist=2.91925526, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+iter 16900:, hard_loss_metric=0.59527582, full_loss_metric=0.21347463, full_loss_num=82997.00781250, mean_dist=2.93878913, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.885
+
+0:21:31.861023
+iter 17000:, hard_loss_metric=0.59408271, full_loss_metric=0.21263151, full_loss_num=85408.03125000, mean_dist=2.91866922, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.884
+
+iter 17100:, hard_loss_metric=0.59306192, full_loss_metric=0.21353158, full_loss_num=84029.15625000, mean_dist=2.94926643, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.885
+
+iter 17200:, hard_loss_metric=0.59123921, full_loss_metric=0.21330397, full_loss_num=83778.86718750, mean_dist=2.94908142, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+iter 17300:, hard_loss_metric=0.59841299, full_loss_metric=0.21429864, full_loss_num=85029.78906250, mean_dist=2.94034481, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+iter 17400:, hard_loss_metric=0.59640199, full_loss_metric=0.21421510, full_loss_num=83119.32031250, mean_dist=2.95825863, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+iter 17500:, hard_loss_metric=0.59201813, full_loss_metric=0.21342289, full_loss_num=85212.27343750, mean_dist=2.93926716, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+iter 17600:, hard_loss_metric=0.59233630, full_loss_metric=0.21296932, full_loss_num=83902.47656250, mean_dist=2.94720554, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+iter 17700:, hard_loss_metric=0.58826756, full_loss_metric=0.21301310, full_loss_num=83070.00781250, mean_dist=2.96034217, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.884
+
+iter 17800:, hard_loss_metric=0.59126014, full_loss_metric=0.21363857, full_loss_num=83067.38281250, mean_dist=2.95834446, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.883
+
+iter 17900:, hard_loss_metric=0.58805323, full_loss_metric=0.21341771, full_loss_num=81777.30468750, mean_dist=2.96101689, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+0:21:31.852263
+iter 18000:, hard_loss_metric=0.58949018, full_loss_metric=0.21334398, full_loss_num=83113.88281250, mean_dist=2.96776342, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 18100:, hard_loss_metric=0.58802080, full_loss_metric=0.21334687, full_loss_num=83347.86718750, mean_dist=2.97006798, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 18200:, hard_loss_metric=0.59073555, full_loss_metric=0.21372734, full_loss_num=82767.59375000, mean_dist=2.97320247, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.886
+
+iter 18300:, hard_loss_metric=0.58330113, full_loss_metric=0.21301228, full_loss_num=80385.15625000, mean_dist=2.98617530, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.891
+
+iter 18400:, hard_loss_metric=0.58583575, full_loss_metric=0.21386638, full_loss_num=83270.76562500, mean_dist=2.97388339, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.883
+
+iter 18500:, hard_loss_metric=0.58805621, full_loss_metric=0.21276434, full_loss_num=84375.60156250, mean_dist=2.95770049, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 18600:, hard_loss_metric=0.58999121, full_loss_metric=0.21426862, full_loss_num=82034.47656250, mean_dist=2.98034239, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.889
+
+iter 18700:, hard_loss_metric=0.58754218, full_loss_metric=0.21290140, full_loss_num=83588.04687500, mean_dist=2.96913981, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 18800:, hard_loss_metric=0.58744895, full_loss_metric=0.21329834, full_loss_num=81429.67187500, mean_dist=2.97792077, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 18900:, hard_loss_metric=0.58369130, full_loss_metric=0.21274364, full_loss_num=82205.39843750, mean_dist=2.98684502, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+0:21:34.249791
+iter 19000:, hard_loss_metric=0.58638370, full_loss_metric=0.21379411, full_loss_num=81252.75781250, mean_dist=2.99308085, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 19100:, hard_loss_metric=0.58453882, full_loss_metric=0.21309450, full_loss_num=82572.35937500, mean_dist=2.98719907, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 19200:, hard_loss_metric=0.58362478, full_loss_metric=0.21390964, full_loss_num=80003.28906250, mean_dist=3.01041889, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 19300:, hard_loss_metric=0.58289111, full_loss_metric=0.21361142, full_loss_num=80662.32812500, mean_dist=3.00855279, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+iter 19400:, hard_loss_metric=0.58197594, full_loss_metric=0.21262112, full_loss_num=81132.46875000, mean_dist=3.00603414, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.887
+
+iter 19500:, hard_loss_metric=0.57964772, full_loss_metric=0.21326274, full_loss_num=80200.50781250, mean_dist=3.01544833, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.893
+
+iter 19600:, hard_loss_metric=0.58385438, full_loss_metric=0.21365587, full_loss_num=81262.11718750, mean_dist=3.00934792, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 19700:, hard_loss_metric=0.58253485, full_loss_metric=0.21391806, full_loss_num=80529.83593750, mean_dist=3.01288962, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.891
+
+iter 19800:, hard_loss_metric=0.58200192, full_loss_metric=0.21354716, full_loss_num=82358.00781250, mean_dist=3.00259686, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 19900:, hard_loss_metric=0.57513624, full_loss_metric=0.21242255, full_loss_num=80070.64843750, mean_dist=3.01269627, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.890
+
+0:21:33.681306
+iter 20000:, hard_loss_metric=0.58089268, full_loss_metric=0.21331441, full_loss_num=80235.61718750, mean_dist=3.01306772, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.893
+
+iter 20100:, hard_loss_metric=0.57788551, full_loss_metric=0.21364312, full_loss_num=79290.72656250, mean_dist=3.02888131, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 20200:, hard_loss_metric=0.57662141, full_loss_metric=0.21308117, full_loss_num=79429.52343750, mean_dist=3.01799798, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 20300:, hard_loss_metric=0.57970077, full_loss_metric=0.21412551, full_loss_num=78677.38281250, mean_dist=3.03551412, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.890
+
+iter 20400:, hard_loss_metric=0.57721496, full_loss_metric=0.21233025, full_loss_num=80181.97656250, mean_dist=3.02211428, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 20500:, hard_loss_metric=0.57634676, full_loss_metric=0.21298768, full_loss_num=79692.64843750, mean_dist=3.03018403, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 20600:, hard_loss_metric=0.57925135, full_loss_metric=0.21320501, full_loss_num=81252.92187500, mean_dist=3.02232718, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.888
+
+iter 20700:, hard_loss_metric=0.57547086, full_loss_metric=0.21352123, full_loss_num=77950.67187500, mean_dist=3.04837656, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 20800:, hard_loss_metric=0.57300287, full_loss_metric=0.21309859, full_loss_num=77687.43750000, mean_dist=3.05064034, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.890
+
+iter 20900:, hard_loss_metric=0.57662410, full_loss_metric=0.21334532, full_loss_num=79287.47656250, mean_dist=3.03909016, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.891
+
+0:21:34.265334
+iter 21000:, hard_loss_metric=0.57321376, full_loss_metric=0.21292584, full_loss_num=79016.62500000, mean_dist=3.03128457, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+iter 21100:, hard_loss_metric=0.57506704, full_loss_metric=0.21329805, full_loss_num=79167.56250000, mean_dist=3.04324794, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+iter 21200:, hard_loss_metric=0.57073396, full_loss_metric=0.21261688, full_loss_num=76718.85937500, mean_dist=3.06068182, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.892
+
+iter 21300:, hard_loss_metric=0.57308209, full_loss_metric=0.21308158, full_loss_num=79688.20312500, mean_dist=3.04674125, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.897
+
+iter 21400:, hard_loss_metric=0.57270598, full_loss_metric=0.21322680, full_loss_num=77866.52343750, mean_dist=3.06456399, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 21500:, hard_loss_metric=0.57253176, full_loss_metric=0.21319170, full_loss_num=77493.58593750, mean_dist=3.06150723, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.891
+
+iter 21600:, hard_loss_metric=0.57501930, full_loss_metric=0.21329623, full_loss_num=79147.38281250, mean_dist=3.04710698, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 21700:, hard_loss_metric=0.57103056, full_loss_metric=0.21313958, full_loss_num=77684.50781250, mean_dist=3.05965328, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+iter 21800:, hard_loss_metric=0.57515031, full_loss_metric=0.21380821, full_loss_num=78555.10937500, mean_dist=3.05904102, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 21900:, hard_loss_metric=0.56755805, full_loss_metric=0.21300238, full_loss_num=76530.14062500, mean_dist=3.07051396, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+0:21:36.707041
+iter 22000:, hard_loss_metric=0.56988776, full_loss_metric=0.21306068, full_loss_num=78200.60937500, mean_dist=3.06264710, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.893
+
+iter 22100:, hard_loss_metric=0.56523436, full_loss_metric=0.21233314, full_loss_num=77105.56250000, mean_dist=3.07256722, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 22200:, hard_loss_metric=0.56702191, full_loss_metric=0.21283381, full_loss_num=78448.20312500, mean_dist=3.07121277, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.902
+
+iter 22300:, hard_loss_metric=0.56837672, full_loss_metric=0.21305645, full_loss_num=76879.92187500, mean_dist=3.07244754, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+iter 22400:, hard_loss_metric=0.57186866, full_loss_metric=0.21313953, full_loss_num=78606.09375000, mean_dist=3.07112575, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 22500:, hard_loss_metric=0.56912297, full_loss_metric=0.21253441, full_loss_num=77883.64062500, mean_dist=3.06836915, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 22600:, hard_loss_metric=0.57288283, full_loss_metric=0.21401639, full_loss_num=77952.83593750, mean_dist=3.07985473, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.893
+
+iter 22700:, hard_loss_metric=0.56465328, full_loss_metric=0.21271712, full_loss_num=76244.45312500, mean_dist=3.08626890, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 22800:, hard_loss_metric=0.56754315, full_loss_metric=0.21330452, full_loss_num=77113.29687500, mean_dist=3.08027172, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 22900:, hard_loss_metric=0.56833273, full_loss_metric=0.21300514, full_loss_num=76824.68750000, mean_dist=3.08201075, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.895
+
+0:21:37.045603
+iter 23000:, hard_loss_metric=0.56762075, full_loss_metric=0.21323279, full_loss_num=77207.67187500, mean_dist=3.08576965, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.894
+
+iter 23100:, hard_loss_metric=0.56342870, full_loss_metric=0.21345066, full_loss_num=75431.71875000, mean_dist=3.10376596, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 23200:, hard_loss_metric=0.56872702, full_loss_metric=0.21351697, full_loss_num=75640.15625000, mean_dist=3.09146762, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.897
+
+iter 23300:, hard_loss_metric=0.56571692, full_loss_metric=0.21266019, full_loss_num=77258.92187500, mean_dist=3.08557606, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 23400:, hard_loss_metric=0.56158906, full_loss_metric=0.21226919, full_loss_num=76135.39843750, mean_dist=3.09632421, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.902
+
+iter 23500:, hard_loss_metric=0.56534201, full_loss_metric=0.21336508, full_loss_num=75287.40625000, mean_dist=3.10025716, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 23600:, hard_loss_metric=0.56435430, full_loss_metric=0.21314614, full_loss_num=75601.00781250, mean_dist=3.10568905, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 23700:, hard_loss_metric=0.56218737, full_loss_metric=0.21297482, full_loss_num=76742.53125000, mean_dist=3.10394645, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 23800:, hard_loss_metric=0.56344122, full_loss_metric=0.21331909, full_loss_num=76311.67187500, mean_dist=3.10031056, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 23900:, hard_loss_metric=0.56393850, full_loss_metric=0.21291979, full_loss_num=76099.35937500, mean_dist=3.10094476, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.897
+
+0:21:40.314086
+iter 24000:, hard_loss_metric=0.56102127, full_loss_metric=0.21288477, full_loss_num=74632.99218750, mean_dist=3.11845303, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 24100:, hard_loss_metric=0.56258130, full_loss_metric=0.21347557, full_loss_num=75599.17968750, mean_dist=3.12238073, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 24200:, hard_loss_metric=0.56073493, full_loss_metric=0.21268386, full_loss_num=75251.38281250, mean_dist=3.12066841, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.897
+
+iter 24300:, hard_loss_metric=0.55769151, full_loss_metric=0.21232073, full_loss_num=76255.78125000, mean_dist=3.10724640, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 24400:, hard_loss_metric=0.56256801, full_loss_metric=0.21335489, full_loss_num=76418.25781250, mean_dist=3.11990047, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 24500:, hard_loss_metric=0.56140453, full_loss_metric=0.21278492, full_loss_num=75443.78125000, mean_dist=3.10783482, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 24600:, hard_loss_metric=0.55987364, full_loss_metric=0.21283905, full_loss_num=75428.92187500, mean_dist=3.12710571, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 24700:, hard_loss_metric=0.56239176, full_loss_metric=0.21350460, full_loss_num=75059.98437500, mean_dist=3.12607121, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+iter 24800:, hard_loss_metric=0.55583465, full_loss_metric=0.21225330, full_loss_num=74150.35156250, mean_dist=3.13741302, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.902
+
+iter 24900:, hard_loss_metric=0.55862594, full_loss_metric=0.21291740, full_loss_num=74467.35156250, mean_dist=3.13418603, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+0:21:39.930172
+iter 25000:, hard_loss_metric=0.55728060, full_loss_metric=0.21297559, full_loss_num=74664.22656250, mean_dist=3.12878394, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+iter 25100:, hard_loss_metric=0.55905920, full_loss_metric=0.21292585, full_loss_num=75812.62500000, mean_dist=3.12922478, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.898
+
+iter 25200:, hard_loss_metric=0.55709630, full_loss_metric=0.21305822, full_loss_num=74936.27343750, mean_dist=3.13412833, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 25300:, hard_loss_metric=0.55835474, full_loss_metric=0.21320179, full_loss_num=75236.70312500, mean_dist=3.13634682, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 25400:, hard_loss_metric=0.55953455, full_loss_metric=0.21268046, full_loss_num=76261.15625000, mean_dist=3.11790347, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.893
+
+iter 25500:, hard_loss_metric=0.55460620, full_loss_metric=0.21210127, full_loss_num=73911.09375000, mean_dist=3.14262509, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.904
+
+iter 25600:, hard_loss_metric=0.55583471, full_loss_metric=0.21325779, full_loss_num=73869.46875000, mean_dist=3.14417291, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+iter 25700:, hard_loss_metric=0.55217963, full_loss_metric=0.21338372, full_loss_num=73981.42187500, mean_dist=3.14950657, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 25800:, hard_loss_metric=0.55693209, full_loss_metric=0.21300983, full_loss_num=74805.86718750, mean_dist=3.15195322, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 25900:, hard_loss_metric=0.55278862, full_loss_metric=0.21279660, full_loss_num=74546.27343750, mean_dist=3.14884329, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+0:21:40.813498
+iter 26000:, hard_loss_metric=0.55104810, full_loss_metric=0.21240500, full_loss_num=73570.40625000, mean_dist=3.15272808, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 26100:, hard_loss_metric=0.55047005, full_loss_metric=0.21224990, full_loss_num=73991.14843750, mean_dist=3.15448236, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 26200:, hard_loss_metric=0.55509305, full_loss_metric=0.21368925, full_loss_num=72131.97656250, mean_dist=3.16480827, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 26300:, hard_loss_metric=0.55174756, full_loss_metric=0.21272603, full_loss_num=73611.85156250, mean_dist=3.15837550, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+iter 26400:, hard_loss_metric=0.55522323, full_loss_metric=0.21312726, full_loss_num=74135.88281250, mean_dist=3.15795803, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 26500:, hard_loss_metric=0.55182803, full_loss_metric=0.21259676, full_loss_num=73019.38281250, mean_dist=3.16282964, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 26600:, hard_loss_metric=0.55306900, full_loss_metric=0.21333340, full_loss_num=73849.61718750, mean_dist=3.15677214, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.899
+
+iter 26700:, hard_loss_metric=0.54960978, full_loss_metric=0.21224068, full_loss_num=73232.96875000, mean_dist=3.15331936, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 26800:, hard_loss_metric=0.54864526, full_loss_metric=0.21287583, full_loss_num=72485.15625000, mean_dist=3.16858053, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 26900:, hard_loss_metric=0.54923421, full_loss_metric=0.21209450, full_loss_num=72918.32031250, mean_dist=3.16975069, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.907
+
+0:21:38.787458
+iter 27000:, hard_loss_metric=0.55003715, full_loss_metric=0.21298333, full_loss_num=73256.89843750, mean_dist=3.17068601, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.896
+
+iter 27100:, hard_loss_metric=0.55061173, full_loss_metric=0.21301302, full_loss_num=72150.35937500, mean_dist=3.17202401, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 27200:, hard_loss_metric=0.54863429, full_loss_metric=0.21275191, full_loss_num=71944.07812500, mean_dist=3.18823004, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 27300:, hard_loss_metric=0.54943711, full_loss_metric=0.21265760, full_loss_num=72600.67968750, mean_dist=3.18067026, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.904
+
+iter 27400:, hard_loss_metric=0.54927850, full_loss_metric=0.21255745, full_loss_num=73314.59375000, mean_dist=3.18191886, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 27500:, hard_loss_metric=0.55039173, full_loss_metric=0.21308587, full_loss_num=72155.61718750, mean_dist=3.18395138, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.904
+
+iter 27600:, hard_loss_metric=0.54853696, full_loss_metric=0.21213813, full_loss_num=73694.17187500, mean_dist=3.16802573, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 27700:, hard_loss_metric=0.55107886, full_loss_metric=0.21382166, full_loss_num=72818.46875000, mean_dist=3.19119477, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+iter 27800:, hard_loss_metric=0.54957032, full_loss_metric=0.21369818, full_loss_num=73233.29687500, mean_dist=3.18536305, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 27900:, hard_loss_metric=0.54792285, full_loss_metric=0.21313189, full_loss_num=72004.71093750, mean_dist=3.18971062, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.901
+
+0:21:40.509180
+iter 28000:, hard_loss_metric=0.54676253, full_loss_metric=0.21254784, full_loss_num=72795.19531250, mean_dist=3.18558812, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.904
+
+iter 28100:, hard_loss_metric=0.54839683, full_loss_metric=0.21281105, full_loss_num=72929.06250000, mean_dist=3.17847538, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 28200:, hard_loss_metric=0.54924685, full_loss_metric=0.21329834, full_loss_num=73772.81250000, mean_dist=3.19022822, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.907
+
+iter 28300:, hard_loss_metric=0.54694533, full_loss_metric=0.21258293, full_loss_num=73210.85156250, mean_dist=3.18512416, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.908
+
+iter 28400:, hard_loss_metric=0.54240370, full_loss_metric=0.21229807, full_loss_num=72143.72656250, mean_dist=3.20205760, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 28500:, hard_loss_metric=0.54493088, full_loss_metric=0.21270737, full_loss_num=71906.26562500, mean_dist=3.19748998, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 28600:, hard_loss_metric=0.54619008, full_loss_metric=0.21280855, full_loss_num=72398.94531250, mean_dist=3.19802308, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.902
+
+iter 28700:, hard_loss_metric=0.54224676, full_loss_metric=0.21243186, full_loss_num=71209.11718750, mean_dist=3.20058799, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.907
+
+iter 28800:, hard_loss_metric=0.54308283, full_loss_metric=0.21263479, full_loss_num=71528.91406250, mean_dist=3.19465208, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 28900:, hard_loss_metric=0.54382980, full_loss_metric=0.21274358, full_loss_num=72154.61718750, mean_dist=3.19372082, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+0:21:41.374083
+iter 29000:, hard_loss_metric=0.54338026, full_loss_metric=0.21241997, full_loss_num=72960.06250000, mean_dist=3.18583155, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 29100:, hard_loss_metric=0.54501879, full_loss_metric=0.21322173, full_loss_num=71880.88281250, mean_dist=3.20433688, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 29200:, hard_loss_metric=0.54167026, full_loss_metric=0.21261400, full_loss_num=70956.61718750, mean_dist=3.21097898, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 29300:, hard_loss_metric=0.54175764, full_loss_metric=0.21255070, full_loss_num=70244.42187500, mean_dist=3.21066403, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 29400:, hard_loss_metric=0.53739136, full_loss_metric=0.21166590, full_loss_num=70823.66406250, mean_dist=3.21480203, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 29500:, hard_loss_metric=0.54652375, full_loss_metric=0.21354410, full_loss_num=72022.36718750, mean_dist=3.20921683, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 29600:, hard_loss_metric=0.54079223, full_loss_metric=0.21264458, full_loss_num=71175.32031250, mean_dist=3.21213722, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 29700:, hard_loss_metric=0.54076743, full_loss_metric=0.21213259, full_loss_num=71639.27343750, mean_dist=3.21261406, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 29800:, hard_loss_metric=0.54045391, full_loss_metric=0.21248132, full_loss_num=72370.21875000, mean_dist=3.21363091, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 29900:, hard_loss_metric=0.54062223, full_loss_metric=0.21253200, full_loss_num=70912.88281250, mean_dist=3.21736717, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.907
+
+0:21:41.235709
+iter 30000:, hard_loss_metric=0.53866911, full_loss_metric=0.21225522, full_loss_num=70952.36718750, mean_dist=3.21671104, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.905
+
+iter 30100:, hard_loss_metric=0.54119748, full_loss_metric=0.21224923, full_loss_num=72015.42187500, mean_dist=3.22239709, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.909
+
+iter 30200:, hard_loss_metric=0.53959608, full_loss_metric=0.21251921, full_loss_num=70839.29687500, mean_dist=3.22304440, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 30300:, hard_loss_metric=0.53774798, full_loss_metric=0.21266671, full_loss_num=70290.23437500, mean_dist=3.23331857, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.909
+
+iter 30400:, hard_loss_metric=0.53613895, full_loss_metric=0.21154989, full_loss_num=70226.54687500, mean_dist=3.22511482, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 30500:, hard_loss_metric=0.53722930, full_loss_metric=0.21317671, full_loss_num=69702.75781250, mean_dist=3.23996043, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.900
+
+iter 30600:, hard_loss_metric=0.54032987, full_loss_metric=0.21231584, full_loss_num=70751.78125000, mean_dist=3.22934961, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.903
+
+iter 30700:, hard_loss_metric=0.54004359, full_loss_metric=0.21307358, full_loss_num=70225.95312500, mean_dist=3.23023629, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 30800:, hard_loss_metric=0.54242194, full_loss_metric=0.21304530, full_loss_num=71079.03125000, mean_dist=3.22956014, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 30900:, hard_loss_metric=0.53924650, full_loss_metric=0.21277718, full_loss_num=70808.67187500, mean_dist=3.22753334, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.912
+
+0:21:42.761249
+iter 31000:, hard_loss_metric=0.53659111, full_loss_metric=0.21198912, full_loss_num=70040.90625000, mean_dist=3.23763800, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 31100:, hard_loss_metric=0.54062963, full_loss_metric=0.21304308, full_loss_num=70714.92968750, mean_dist=3.23086524, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 31200:, hard_loss_metric=0.53547668, full_loss_metric=0.21187651, full_loss_num=70576.49218750, mean_dist=3.23854852, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 31300:, hard_loss_metric=0.54003996, full_loss_metric=0.21268946, full_loss_num=70750.10937500, mean_dist=3.23551607, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.906
+
+iter 31400:, hard_loss_metric=0.53671068, full_loss_metric=0.21270317, full_loss_num=70715.18750000, mean_dist=3.23968434, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 31500:, hard_loss_metric=0.53997445, full_loss_metric=0.21307217, full_loss_num=70510.93750000, mean_dist=3.23613214, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.908
+
+iter 31600:, hard_loss_metric=0.53353083, full_loss_metric=0.21147420, full_loss_num=70015.60937500, mean_dist=3.23926234, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 31700:, hard_loss_metric=0.53238779, full_loss_metric=0.21260889, full_loss_num=69121.11718750, mean_dist=3.25662661, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 31800:, hard_loss_metric=0.53423941, full_loss_metric=0.21179889, full_loss_num=70227.42187500, mean_dist=3.24777436, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 31900:, hard_loss_metric=0.53560227, full_loss_metric=0.21316753, full_loss_num=70105.49218750, mean_dist=3.24986029, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.908
+
+0:21:43.023315
+iter 32000:, hard_loss_metric=0.53274596, full_loss_metric=0.21189566, full_loss_num=69428.72656250, mean_dist=3.25241780, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 32100:, hard_loss_metric=0.53752768, full_loss_metric=0.21340130, full_loss_num=69559.28125000, mean_dist=3.24648619, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 32200:, hard_loss_metric=0.53601980, full_loss_metric=0.21236312, full_loss_num=71081.39843750, mean_dist=3.24258327, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.907
+
+iter 32300:, hard_loss_metric=0.53581947, full_loss_metric=0.21260153, full_loss_num=69543.69531250, mean_dist=3.25939655, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 32400:, hard_loss_metric=0.53126615, full_loss_metric=0.21161407, full_loss_num=69457.35937500, mean_dist=3.24492455, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 32500:, hard_loss_metric=0.53453314, full_loss_metric=0.21374163, full_loss_num=69227.18750000, mean_dist=3.27679467, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.909
+
+iter 32600:, hard_loss_metric=0.53235608, full_loss_metric=0.21252818, full_loss_num=70145.43750000, mean_dist=3.25230384, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 32700:, hard_loss_metric=0.53044337, full_loss_metric=0.21213755, full_loss_num=68064.80468750, mean_dist=3.26810050, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 32800:, hard_loss_metric=0.52964252, full_loss_metric=0.21186855, full_loss_num=69427.82812500, mean_dist=3.25956845, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 32900:, hard_loss_metric=0.53039968, full_loss_metric=0.21294327, full_loss_num=67598.52343750, mean_dist=3.27900124, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+0:21:40.762513
+iter 33000:, hard_loss_metric=0.53152519, full_loss_metric=0.21209222, full_loss_num=69829.75000000, mean_dist=3.26389337, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 33100:, hard_loss_metric=0.53266436, full_loss_metric=0.21274716, full_loss_num=70183.63281250, mean_dist=3.26523614, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 33200:, hard_loss_metric=0.53052855, full_loss_metric=0.21242897, full_loss_num=68046.03125000, mean_dist=3.27587414, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.912
+
+iter 33300:, hard_loss_metric=0.52918017, full_loss_metric=0.21235009, full_loss_num=68091.25781250, mean_dist=3.27589011, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 33400:, hard_loss_metric=0.53187728, full_loss_metric=0.21238853, full_loss_num=69164.00781250, mean_dist=3.26975489, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 33500:, hard_loss_metric=0.53140855, full_loss_metric=0.21279158, full_loss_num=68919.82031250, mean_dist=3.27068853, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 33600:, hard_loss_metric=0.52674752, full_loss_metric=0.21198738, full_loss_num=67796.96093750, mean_dist=3.27001929, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 33700:, hard_loss_metric=0.53507394, full_loss_metric=0.21312872, full_loss_num=70941.63281250, mean_dist=3.27177954, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 33800:, hard_loss_metric=0.53226388, full_loss_metric=0.21261108, full_loss_num=70582.27343750, mean_dist=3.26477456, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 33900:, hard_loss_metric=0.52859360, full_loss_metric=0.21223435, full_loss_num=68557.21875000, mean_dist=3.27971411, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+0:21:40.535022
+iter 34000:, hard_loss_metric=0.52612311, full_loss_metric=0.21206412, full_loss_num=67853.84375000, mean_dist=3.27552104, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 34100:, hard_loss_metric=0.52711058, full_loss_metric=0.21176176, full_loss_num=69366.89843750, mean_dist=3.27763605, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.912
+
+iter 34200:, hard_loss_metric=0.52575731, full_loss_metric=0.21271707, full_loss_num=67226.42187500, mean_dist=3.30945110, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.904
+
+iter 34300:, hard_loss_metric=0.53112364, full_loss_metric=0.21283968, full_loss_num=70364.99218750, mean_dist=3.27269459, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 34400:, hard_loss_metric=0.52849662, full_loss_metric=0.21186741, full_loss_num=69001.57812500, mean_dist=3.27192545, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 34500:, hard_loss_metric=0.53040290, full_loss_metric=0.21299662, full_loss_num=69137.77343750, mean_dist=3.28946114, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 34600:, hard_loss_metric=0.52604485, full_loss_metric=0.21197167, full_loss_num=68709.97656250, mean_dist=3.28623819, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.908
+
+iter 34700:, hard_loss_metric=0.52843553, full_loss_metric=0.21245036, full_loss_num=67939.35156250, mean_dist=3.28813815, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 34800:, hard_loss_metric=0.52596676, full_loss_metric=0.21163438, full_loss_num=68149.53125000, mean_dist=3.28962564, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 34900:, hard_loss_metric=0.52656138, full_loss_metric=0.21302868, full_loss_num=68232.37500000, mean_dist=3.30449009, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+0:21:38.578357
+iter 35000:, hard_loss_metric=0.52528220, full_loss_metric=0.21239735, full_loss_num=68054.90625000, mean_dist=3.30518413, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 35100:, hard_loss_metric=0.52592874, full_loss_metric=0.21256053, full_loss_num=68098.85156250, mean_dist=3.30161810, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 35200:, hard_loss_metric=0.53123426, full_loss_metric=0.21298707, full_loss_num=69247.57031250, mean_dist=3.28768492, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 35300:, hard_loss_metric=0.52463210, full_loss_metric=0.21230426, full_loss_num=67606.62500000, mean_dist=3.30384088, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 35400:, hard_loss_metric=0.52548993, full_loss_metric=0.21272312, full_loss_num=67623.79687500, mean_dist=3.30419493, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 35500:, hard_loss_metric=0.52945530, full_loss_metric=0.21267857, full_loss_num=68944.99218750, mean_dist=3.28796244, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.910
+
+iter 35600:, hard_loss_metric=0.52584600, full_loss_metric=0.21249050, full_loss_num=69908.67187500, mean_dist=3.28067207, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 35700:, hard_loss_metric=0.52543253, full_loss_metric=0.21265595, full_loss_num=67743.02343750, mean_dist=3.30551338, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 35800:, hard_loss_metric=0.52271289, full_loss_metric=0.21281861, full_loss_num=67159.93750000, mean_dist=3.31520724, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.911
+
+iter 35900:, hard_loss_metric=0.52051997, full_loss_metric=0.21172836, full_loss_num=66882.35156250, mean_dist=3.31427693, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+0:21:38.061976
+iter 36000:, hard_loss_metric=0.52316731, full_loss_metric=0.21214923, full_loss_num=67343.22656250, mean_dist=3.29906368, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 36100:, hard_loss_metric=0.52685189, full_loss_metric=0.21252531, full_loss_num=69356.42187500, mean_dist=3.29253364, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 36200:, hard_loss_metric=0.52329141, full_loss_metric=0.21245807, full_loss_num=68473.02343750, mean_dist=3.30278444, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.909
+
+iter 36300:, hard_loss_metric=0.52468520, full_loss_metric=0.21210255, full_loss_num=68589.84375000, mean_dist=3.30041718, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 36400:, hard_loss_metric=0.52136034, full_loss_metric=0.21149705, full_loss_num=68424.04687500, mean_dist=3.29645228, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 36500:, hard_loss_metric=0.52481395, full_loss_metric=0.21254028, full_loss_num=67505.34375000, mean_dist=3.31546545, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 36600:, hard_loss_metric=0.52348405, full_loss_metric=0.21248361, full_loss_num=68654.33593750, mean_dist=3.30914116, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+iter 36700:, hard_loss_metric=0.52073175, full_loss_metric=0.21160591, full_loss_num=67858.98437500, mean_dist=3.30992055, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.912
+
+iter 36800:, hard_loss_metric=0.52366918, full_loss_metric=0.21196231, full_loss_num=68525.02343750, mean_dist=3.30548096, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 36900:, hard_loss_metric=0.52353472, full_loss_metric=0.21238448, full_loss_num=68238.00781250, mean_dist=3.31762481, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+0:21:28.115624
+iter 37000:, hard_loss_metric=0.52308577, full_loss_metric=0.21224242, full_loss_num=68644.15625000, mean_dist=3.31405926, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 37100:, hard_loss_metric=0.51955265, full_loss_metric=0.21130814, full_loss_num=67986.14843750, mean_dist=3.31162691, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 37200:, hard_loss_metric=0.52192730, full_loss_metric=0.21316548, full_loss_num=66828.81250000, mean_dist=3.33300877, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 37300:, hard_loss_metric=0.52026457, full_loss_metric=0.21233226, full_loss_num=67853.41406250, mean_dist=3.33083868, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.922
+
+iter 37400:, hard_loss_metric=0.52192014, full_loss_metric=0.21304016, full_loss_num=66842.42187500, mean_dist=3.33460808, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 37500:, hard_loss_metric=0.51969165, full_loss_metric=0.21214494, full_loss_num=67301.09375000, mean_dist=3.32858181, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 37600:, hard_loss_metric=0.52183765, full_loss_metric=0.21264435, full_loss_num=68523.89062500, mean_dist=3.31620049, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.915
+
+iter 37700:, hard_loss_metric=0.52074200, full_loss_metric=0.21150744, full_loss_num=67575.38281250, mean_dist=3.31364441, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 37800:, hard_loss_metric=0.52234483, full_loss_metric=0.21232904, full_loss_num=69082.37500000, mean_dist=3.31379914, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 37900:, hard_loss_metric=0.51926267, full_loss_metric=0.21229024, full_loss_num=67507.00000000, mean_dist=3.33487916, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+0:21:33.744782
+iter 38000:, hard_loss_metric=0.51945883, full_loss_metric=0.21263577, full_loss_num=67506.77343750, mean_dist=3.33616972, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 38100:, hard_loss_metric=0.52180880, full_loss_metric=0.21238069, full_loss_num=68268.11718750, mean_dist=3.31752300, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.913
+
+iter 38200:, hard_loss_metric=0.51972544, full_loss_metric=0.21197686, full_loss_num=68116.33593750, mean_dist=3.32650781, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 38300:, hard_loss_metric=0.51846826, full_loss_metric=0.21217442, full_loss_num=67647.77343750, mean_dist=3.33339143, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 38400:, hard_loss_metric=0.51669890, full_loss_metric=0.21193956, full_loss_num=66907.85156250, mean_dist=3.34017754, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 38500:, hard_loss_metric=0.51776087, full_loss_metric=0.21225649, full_loss_num=67417.75000000, mean_dist=3.34718251, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 38600:, hard_loss_metric=0.51740187, full_loss_metric=0.21239406, full_loss_num=67500.39843750, mean_dist=3.34804869, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 38700:, hard_loss_metric=0.51805264, full_loss_metric=0.21232755, full_loss_num=66980.28906250, mean_dist=3.34440136, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 38800:, hard_loss_metric=0.51585990, full_loss_metric=0.21173859, full_loss_num=66732.24218750, mean_dist=3.33784246, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 38900:, hard_loss_metric=0.51711643, full_loss_metric=0.21156660, full_loss_num=67637.30468750, mean_dist=3.34331179, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+0:21:31.662870
+iter 39000:, hard_loss_metric=0.51513916, full_loss_metric=0.21201472, full_loss_num=65636.28906250, mean_dist=3.35457063, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 39100:, hard_loss_metric=0.51625794, full_loss_metric=0.21243151, full_loss_num=67514.18750000, mean_dist=3.34709501, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 39200:, hard_loss_metric=0.51564658, full_loss_metric=0.21233952, full_loss_num=66353.90625000, mean_dist=3.36303687, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 39300:, hard_loss_metric=0.51305246, full_loss_metric=0.21195376, full_loss_num=65807.17187500, mean_dist=3.36567807, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 39400:, hard_loss_metric=0.51614690, full_loss_metric=0.21203929, full_loss_num=67480.61718750, mean_dist=3.34351277, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.917
+
+iter 39500:, hard_loss_metric=0.51309699, full_loss_metric=0.21162003, full_loss_num=66870.67187500, mean_dist=3.35398889, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 39600:, hard_loss_metric=0.51674932, full_loss_metric=0.21266912, full_loss_num=66652.39843750, mean_dist=3.35634184, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 39700:, hard_loss_metric=0.51456147, full_loss_metric=0.21256822, full_loss_num=66130.14062500, mean_dist=3.36237454, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 39800:, hard_loss_metric=0.51389962, full_loss_metric=0.21224606, full_loss_num=65368.60156250, mean_dist=3.36499095, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 39900:, hard_loss_metric=0.51696324, full_loss_metric=0.21248150, full_loss_num=67161.88281250, mean_dist=3.35511327, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.914
+
+0:21:32.160678
+iter 40000:, hard_loss_metric=0.51286936, full_loss_metric=0.21134825, full_loss_num=66690.57031250, mean_dist=3.34985232, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 40100:, hard_loss_metric=0.51412386, full_loss_metric=0.21191882, full_loss_num=66780.85937500, mean_dist=3.35433984, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 40200:, hard_loss_metric=0.51490939, full_loss_metric=0.21149084, full_loss_num=67918.68750000, mean_dist=3.34452248, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 40300:, hard_loss_metric=0.51203132, full_loss_metric=0.21184379, full_loss_num=65695.68750000, mean_dist=3.36745119, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.916
+
+iter 40400:, hard_loss_metric=0.51572919, full_loss_metric=0.21334830, full_loss_num=66854.17187500, mean_dist=3.37564635, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.922
+
+iter 40500:, hard_loss_metric=0.51531017, full_loss_metric=0.21195030, full_loss_num=67536.68750000, mean_dist=3.35698700, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 40600:, hard_loss_metric=0.51494509, full_loss_metric=0.21243797, full_loss_num=66032.92187500, mean_dist=3.35681248, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 40700:, hard_loss_metric=0.51224637, full_loss_metric=0.21189003, full_loss_num=66748.10937500, mean_dist=3.36626434, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 40800:, hard_loss_metric=0.51412630, full_loss_metric=0.21184547, full_loss_num=66685.53906250, mean_dist=3.36675119, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 40900:, hard_loss_metric=0.51307958, full_loss_metric=0.21231678, full_loss_num=65902.50781250, mean_dist=3.37295890, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+0:21:33.446834
+iter 41000:, hard_loss_metric=0.51156241, full_loss_metric=0.21175608, full_loss_num=65146.26562500, mean_dist=3.37962580, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 41100:, hard_loss_metric=0.51281935, full_loss_metric=0.21208997, full_loss_num=66553.20312500, mean_dist=3.36617947, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 41200:, hard_loss_metric=0.50865096, full_loss_metric=0.21144980, full_loss_num=66470.66406250, mean_dist=3.37136841, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 41300:, hard_loss_metric=0.51403260, full_loss_metric=0.21218280, full_loss_num=66757.51562500, mean_dist=3.36518288, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 41400:, hard_loss_metric=0.51145101, full_loss_metric=0.21166636, full_loss_num=65938.74218750, mean_dist=3.37449455, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 41500:, hard_loss_metric=0.51381934, full_loss_metric=0.21278292, full_loss_num=66143.89843750, mean_dist=3.38220096, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 41600:, hard_loss_metric=0.50785667, full_loss_metric=0.21132208, full_loss_num=65344.42187500, mean_dist=3.36817718, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 41700:, hard_loss_metric=0.51498908, full_loss_metric=0.21267025, full_loss_num=66863.35156250, mean_dist=3.37607336, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 41800:, hard_loss_metric=0.51292062, full_loss_metric=0.21237341, full_loss_num=65567.35156250, mean_dist=3.37158012, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 41900:, hard_loss_metric=0.51009005, full_loss_metric=0.21205801, full_loss_num=65644.82031250, mean_dist=3.38583302, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+0:21:32.030553
+iter 42000:, hard_loss_metric=0.50948000, full_loss_metric=0.21221527, full_loss_num=64932.59375000, mean_dist=3.38843417, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 42100:, hard_loss_metric=0.50994200, full_loss_metric=0.21267051, full_loss_num=66231.81250000, mean_dist=3.38019633, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 42200:, hard_loss_metric=0.51253259, full_loss_metric=0.21209630, full_loss_num=65651.39843750, mean_dist=3.37179470, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 42300:, hard_loss_metric=0.51013100, full_loss_metric=0.21240780, full_loss_num=64915.80859375, mean_dist=3.38212943, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 42400:, hard_loss_metric=0.51005137, full_loss_metric=0.21137747, full_loss_num=66813.95312500, mean_dist=3.37524533, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 42500:, hard_loss_metric=0.50905955, full_loss_metric=0.21195440, full_loss_num=65921.85937500, mean_dist=3.39152527, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.920
+
+iter 42600:, hard_loss_metric=0.50934625, full_loss_metric=0.21187848, full_loss_num=64834.31640625, mean_dist=3.38661861, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.918
+
+iter 42700:, hard_loss_metric=0.50861287, full_loss_metric=0.21150495, full_loss_num=66104.22656250, mean_dist=3.38895655, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 42800:, hard_loss_metric=0.50990230, full_loss_metric=0.21264896, full_loss_num=65634.03125000, mean_dist=3.40420961, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 42900:, hard_loss_metric=0.50799626, full_loss_metric=0.21190077, full_loss_num=64874.22656250, mean_dist=3.39113760, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.922
+
+0:21:32.473023
+iter 43000:, hard_loss_metric=0.50838983, full_loss_metric=0.21208423, full_loss_num=65288.55468750, mean_dist=3.39808965, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 43100:, hard_loss_metric=0.50936759, full_loss_metric=0.21263362, full_loss_num=65389.82031250, mean_dist=3.39571786, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 43200:, hard_loss_metric=0.51075029, full_loss_metric=0.21182021, full_loss_num=66386.35937500, mean_dist=3.38460398, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 43300:, hard_loss_metric=0.50984579, full_loss_metric=0.21184313, full_loss_num=66532.52343750, mean_dist=3.38212609, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+iter 43400:, hard_loss_metric=0.50479746, full_loss_metric=0.21158230, full_loss_num=64801.85937500, mean_dist=3.39235783, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 43500:, hard_loss_metric=0.50985479, full_loss_metric=0.21281175, full_loss_num=66014.35156250, mean_dist=3.39770961, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.922
+
+iter 43600:, hard_loss_metric=0.50551587, full_loss_metric=0.21181259, full_loss_num=64257.26953125, mean_dist=3.39884615, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 43700:, hard_loss_metric=0.50506967, full_loss_metric=0.21231994, full_loss_num=64960.23828125, mean_dist=3.41004944, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.919
+
+iter 43800:, hard_loss_metric=0.50887626, full_loss_metric=0.21253103, full_loss_num=65299.57421875, mean_dist=3.39394689, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 43900:, hard_loss_metric=0.50962752, full_loss_metric=0.21202941, full_loss_num=66443.21875000, mean_dist=3.39907193, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+0:21:30.877731
+iter 44000:, hard_loss_metric=0.50876909, full_loss_metric=0.21254596, full_loss_num=65383.92578125, mean_dist=3.40158772, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 44100:, hard_loss_metric=0.50574183, full_loss_metric=0.21193083, full_loss_num=65794.28125000, mean_dist=3.39214516, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 44200:, hard_loss_metric=0.50815696, full_loss_metric=0.21193150, full_loss_num=64684.28906250, mean_dist=3.39330506, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 44300:, hard_loss_metric=0.50455552, full_loss_metric=0.21097413, full_loss_num=65651.22656250, mean_dist=3.39826488, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 44400:, hard_loss_metric=0.50519651, full_loss_metric=0.21213190, full_loss_num=65070.37109375, mean_dist=3.41606212, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 44500:, hard_loss_metric=0.50943899, full_loss_metric=0.21248339, full_loss_num=64296.37890625, mean_dist=3.40173626, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 44600:, hard_loss_metric=0.50812280, full_loss_metric=0.21244697, full_loss_num=64755.75390625, mean_dist=3.40608859, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 44700:, hard_loss_metric=0.51085293, full_loss_metric=0.21308891, full_loss_num=65596.90625000, mean_dist=3.39789772, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 44800:, hard_loss_metric=0.50554746, full_loss_metric=0.21090597, full_loss_num=65456.73437500, mean_dist=3.39817595, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 44900:, hard_loss_metric=0.50691581, full_loss_metric=0.21286847, full_loss_num=65121.87109375, mean_dist=3.41538095, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+0:21:30.413698
+iter 45000:, hard_loss_metric=0.50091791, full_loss_metric=0.21144970, full_loss_num=64340.59375000, mean_dist=3.42129207, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 45100:, hard_loss_metric=0.50062960, full_loss_metric=0.21138823, full_loss_num=64636.13671875, mean_dist=3.41603541, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 45200:, hard_loss_metric=0.50665265, full_loss_metric=0.21266909, full_loss_num=63980.35156250, mean_dist=3.42104816, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 45300:, hard_loss_metric=0.50501990, full_loss_metric=0.21147317, full_loss_num=65835.82812500, mean_dist=3.40691924, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 45400:, hard_loss_metric=0.50355363, full_loss_metric=0.21157356, full_loss_num=64576.68359375, mean_dist=3.41565394, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.921
+
+iter 45500:, hard_loss_metric=0.50543684, full_loss_metric=0.21268007, full_loss_num=64892.23437500, mean_dist=3.42072940, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 45600:, hard_loss_metric=0.50425416, full_loss_metric=0.21258742, full_loss_num=64425.89062500, mean_dist=3.42502069, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 45700:, hard_loss_metric=0.50237781, full_loss_metric=0.21156639, full_loss_num=64081.69921875, mean_dist=3.42176914, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 45800:, hard_loss_metric=0.50065923, full_loss_metric=0.21194041, full_loss_num=63436.50390625, mean_dist=3.43356323, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 45900:, hard_loss_metric=0.50277442, full_loss_metric=0.21192706, full_loss_num=64749.66015625, mean_dist=3.41995907, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+0:21:31.627539
+iter 46000:, hard_loss_metric=0.50296152, full_loss_metric=0.21184799, full_loss_num=65396.69140625, mean_dist=3.41349316, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 46100:, hard_loss_metric=0.50122052, full_loss_metric=0.21179238, full_loss_num=63707.21093750, mean_dist=3.43196988, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 46200:, hard_loss_metric=0.49815217, full_loss_metric=0.21231180, full_loss_num=63014.62500000, mean_dist=3.44587779, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 46300:, hard_loss_metric=0.50181556, full_loss_metric=0.21156359, full_loss_num=65111.67968750, mean_dist=3.41749978, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 46400:, hard_loss_metric=0.50028431, full_loss_metric=0.21157864, full_loss_num=63807.67578125, mean_dist=3.42928839, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 46500:, hard_loss_metric=0.50546598, full_loss_metric=0.21311335, full_loss_num=64892.80468750, mean_dist=3.42972279, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+iter 46600:, hard_loss_metric=0.50430101, full_loss_metric=0.21230187, full_loss_num=64806.01171875, mean_dist=3.42493844, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 46700:, hard_loss_metric=0.49852914, full_loss_metric=0.21163350, full_loss_num=62659.76953125, mean_dist=3.44331264, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+iter 46800:, hard_loss_metric=0.50455797, full_loss_metric=0.21224296, full_loss_num=64599.76562500, mean_dist=3.41685414, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+iter 46900:, hard_loss_metric=0.50703746, full_loss_metric=0.21244103, full_loss_num=65624.42187500, mean_dist=3.41682196, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.923
+
+0:21:32.098483
+iter 47000:, hard_loss_metric=0.50295085, full_loss_metric=0.21149038, full_loss_num=64839.12890625, mean_dist=3.42599297, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 47100:, hard_loss_metric=0.49981430, full_loss_metric=0.21172304, full_loss_num=64869.78125000, mean_dist=3.42308354, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 47200:, hard_loss_metric=0.50166088, full_loss_metric=0.21181296, full_loss_num=65376.17187500, mean_dist=3.42418218, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 47300:, hard_loss_metric=0.49685910, full_loss_metric=0.21132699, full_loss_num=64094.89062500, mean_dist=3.42985845, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.922
+
+iter 47400:, hard_loss_metric=0.50093925, full_loss_metric=0.21275896, full_loss_num=64305.35156250, mean_dist=3.43558145, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 47500:, hard_loss_metric=0.49907571, full_loss_metric=0.21220303, full_loss_num=64705.76171875, mean_dist=3.42798281, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+iter 47600:, hard_loss_metric=0.49994338, full_loss_metric=0.21152154, full_loss_num=64076.42187500, mean_dist=3.44059515, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 47700:, hard_loss_metric=0.50164604, full_loss_metric=0.21251214, full_loss_num=65127.07421875, mean_dist=3.43894434, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 47800:, hard_loss_metric=0.49755773, full_loss_metric=0.21141411, full_loss_num=63544.51953125, mean_dist=3.42809081, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 47900:, hard_loss_metric=0.49711332, full_loss_metric=0.21148574, full_loss_num=63997.20312500, mean_dist=3.44014096, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+0:21:34.721973
+iter 48000:, hard_loss_metric=0.49991646, full_loss_metric=0.21149015, full_loss_num=63935.35546875, mean_dist=3.43646169, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 48100:, hard_loss_metric=0.49922726, full_loss_metric=0.21155874, full_loss_num=64945.80859375, mean_dist=3.43405843, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 48200:, hard_loss_metric=0.50052172, full_loss_metric=0.21209967, full_loss_num=64289.23437500, mean_dist=3.44809651, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 48300:, hard_loss_metric=0.49909374, full_loss_metric=0.21172546, full_loss_num=64899.92968750, mean_dist=3.43253899, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 48400:, hard_loss_metric=0.50227213, full_loss_metric=0.21212222, full_loss_num=65178.35156250, mean_dist=3.43434429, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 48500:, hard_loss_metric=0.49978611, full_loss_metric=0.21191172, full_loss_num=63546.33984375, mean_dist=3.44927239, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 48600:, hard_loss_metric=0.49852246, full_loss_metric=0.21186620, full_loss_num=65368.35546875, mean_dist=3.44447184, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 48700:, hard_loss_metric=0.49740341, full_loss_metric=0.21166740, full_loss_num=63749.30078125, mean_dist=3.44463825, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 48800:, hard_loss_metric=0.49672520, full_loss_metric=0.21146044, full_loss_num=62895.07031250, mean_dist=3.45674443, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 48900:, hard_loss_metric=0.49902657, full_loss_metric=0.21194263, full_loss_num=64463.49609375, mean_dist=3.44271851, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+0:21:36.611974
+iter 49000:, hard_loss_metric=0.49709719, full_loss_metric=0.21228036, full_loss_num=63169.39062500, mean_dist=3.45702934, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 49100:, hard_loss_metric=0.49818695, full_loss_metric=0.21166153, full_loss_num=64496.76171875, mean_dist=3.44541240, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 49200:, hard_loss_metric=0.49572888, full_loss_metric=0.21133408, full_loss_num=64319.02343750, mean_dist=3.45142984, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 49300:, hard_loss_metric=0.50064671, full_loss_metric=0.21253568, full_loss_num=65095.99609375, mean_dist=3.44807863, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 49400:, hard_loss_metric=0.49468383, full_loss_metric=0.21059304, full_loss_num=64575.37890625, mean_dist=3.44097018, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 49500:, hard_loss_metric=0.50069857, full_loss_metric=0.21240495, full_loss_num=65282.45312500, mean_dist=3.44457555, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 49600:, hard_loss_metric=0.49572754, full_loss_metric=0.21188952, full_loss_num=63033.85546875, mean_dist=3.46440601, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 49700:, hard_loss_metric=0.49586746, full_loss_metric=0.21208507, full_loss_num=64588.84375000, mean_dist=3.45641136, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.925
+
+iter 49800:, hard_loss_metric=0.49621448, full_loss_metric=0.21230137, full_loss_num=63767.25390625, mean_dist=3.45919895, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 49900:, hard_loss_metric=0.49975821, full_loss_metric=0.21171919, full_loss_num=64357.98046875, mean_dist=3.43431878, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+0:21:37.906185
+iter 50000:, hard_loss_metric=0.49743721, full_loss_metric=0.21170582, full_loss_num=63396.17578125, mean_dist=3.45981932, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 50100:, hard_loss_metric=0.49958947, full_loss_metric=0.21239634, full_loss_num=64413.91406250, mean_dist=3.44835114, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 50200:, hard_loss_metric=0.49485475, full_loss_metric=0.21205357, full_loss_num=63010.78515625, mean_dist=3.48026180, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 50300:, hard_loss_metric=0.49648529, full_loss_metric=0.21129362, full_loss_num=65414.94140625, mean_dist=3.45028114, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 50400:, hard_loss_metric=0.49465355, full_loss_metric=0.21151398, full_loss_num=64026.21093750, mean_dist=3.45681190, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 50500:, hard_loss_metric=0.49602568, full_loss_metric=0.21152762, full_loss_num=62845.44921875, mean_dist=3.45895791, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 50600:, hard_loss_metric=0.49340162, full_loss_metric=0.21154405, full_loss_num=62999.26953125, mean_dist=3.45428133, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 50700:, hard_loss_metric=0.49738494, full_loss_metric=0.21217294, full_loss_num=62377.64843750, mean_dist=3.46667910, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 50800:, hard_loss_metric=0.49829888, full_loss_metric=0.21184279, full_loss_num=65193.42187500, mean_dist=3.45563173, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 50900:, hard_loss_metric=0.49272361, full_loss_metric=0.21130033, full_loss_num=64332.25000000, mean_dist=3.45888448, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+0:21:40.691669
+iter 51000:, hard_loss_metric=0.49582273, full_loss_metric=0.21224871, full_loss_num=63199.69921875, mean_dist=3.46841311, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 51100:, hard_loss_metric=0.49671257, full_loss_metric=0.21254902, full_loss_num=64438.07031250, mean_dist=3.47583246, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 51200:, hard_loss_metric=0.49110803, full_loss_metric=0.21121125, full_loss_num=62618.94140625, mean_dist=3.47478485, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 51300:, hard_loss_metric=0.49418235, full_loss_metric=0.21213607, full_loss_num=64303.39453125, mean_dist=3.47387600, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 51400:, hard_loss_metric=0.49646550, full_loss_metric=0.21138375, full_loss_num=64373.08593750, mean_dist=3.45508981, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 51500:, hard_loss_metric=0.49554417, full_loss_metric=0.21207348, full_loss_num=63549.71093750, mean_dist=3.47280526, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 51600:, hard_loss_metric=0.49474999, full_loss_metric=0.21091972, full_loss_num=64221.76171875, mean_dist=3.46066594, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 51700:, hard_loss_metric=0.49509978, full_loss_metric=0.21210806, full_loss_num=64210.39843750, mean_dist=3.46761465, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+iter 51800:, hard_loss_metric=0.49255672, full_loss_metric=0.21145624, full_loss_num=63594.87890625, mean_dist=3.46979213, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.924
+
+iter 51900:, hard_loss_metric=0.49282515, full_loss_metric=0.21116842, full_loss_num=64776.35937500, mean_dist=3.46267986, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.927
+
+0:21:41.904649
+iter 52000:, hard_loss_metric=0.49665555, full_loss_metric=0.21208291, full_loss_num=64140.05078125, mean_dist=3.46247864, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 52100:, hard_loss_metric=0.49246430, full_loss_metric=0.21134502, full_loss_num=63400.67578125, mean_dist=3.46218181, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 52200:, hard_loss_metric=0.49594876, full_loss_metric=0.21213371, full_loss_num=63988.73828125, mean_dist=3.46119809, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 52300:, hard_loss_metric=0.49257004, full_loss_metric=0.21162760, full_loss_num=62878.61328125, mean_dist=3.47240925, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 52400:, hard_loss_metric=0.49326968, full_loss_metric=0.21159729, full_loss_num=63940.34375000, mean_dist=3.47930384, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 52500:, hard_loss_metric=0.49679852, full_loss_metric=0.21302216, full_loss_num=64325.32421875, mean_dist=3.48278260, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 52600:, hard_loss_metric=0.49360144, full_loss_metric=0.21185263, full_loss_num=63039.85156250, mean_dist=3.48028660, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.926
+
+iter 52700:, hard_loss_metric=0.49411628, full_loss_metric=0.21208210, full_loss_num=64354.03125000, mean_dist=3.47539830, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 52800:, hard_loss_metric=0.49332273, full_loss_metric=0.21181627, full_loss_num=63197.64843750, mean_dist=3.48068118, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 52900:, hard_loss_metric=0.49053028, full_loss_metric=0.21131831, full_loss_num=62952.20312500, mean_dist=3.48254180, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+0:21:44.062423
+iter 53000:, hard_loss_metric=0.49118450, full_loss_metric=0.21156637, full_loss_num=63201.63671875, mean_dist=3.48529816, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 53100:, hard_loss_metric=0.49248427, full_loss_metric=0.21222055, full_loss_num=62793.81640625, mean_dist=3.48360872, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 53200:, hard_loss_metric=0.49268651, full_loss_metric=0.21137859, full_loss_num=63521.62109375, mean_dist=3.47991848, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 53300:, hard_loss_metric=0.49072728, full_loss_metric=0.21102680, full_loss_num=62774.94531250, mean_dist=3.47737670, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 53400:, hard_loss_metric=0.49053273, full_loss_metric=0.21175459, full_loss_num=62649.19921875, mean_dist=3.49480844, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 53500:, hard_loss_metric=0.49208480, full_loss_metric=0.21204261, full_loss_num=62741.44531250, mean_dist=3.49159598, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 53600:, hard_loss_metric=0.49081662, full_loss_metric=0.21114777, full_loss_num=62932.55078125, mean_dist=3.47344780, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 53700:, hard_loss_metric=0.48977119, full_loss_metric=0.21109575, full_loss_num=62695.88671875, mean_dist=3.48728538, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 53800:, hard_loss_metric=0.48835438, full_loss_metric=0.21209095, full_loss_num=61836.30078125, mean_dist=3.50524879, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 53900:, hard_loss_metric=0.49284264, full_loss_metric=0.21174054, full_loss_num=63897.73437500, mean_dist=3.48171473, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+0:21:44.101570
+iter 54000:, hard_loss_metric=0.48814365, full_loss_metric=0.21095166, full_loss_num=62880.51953125, mean_dist=3.49142122, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 54100:, hard_loss_metric=0.49004039, full_loss_metric=0.21167530, full_loss_num=63246.03515625, mean_dist=3.48764181, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 54200:, hard_loss_metric=0.49206761, full_loss_metric=0.21264571, full_loss_num=62385.60937500, mean_dist=3.50479484, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 54300:, hard_loss_metric=0.49089086, full_loss_metric=0.21157463, full_loss_num=63984.93359375, mean_dist=3.49157071, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 54400:, hard_loss_metric=0.48990467, full_loss_metric=0.21164747, full_loss_num=63287.52343750, mean_dist=3.48104620, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 54500:, hard_loss_metric=0.48869056, full_loss_metric=0.21156704, full_loss_num=62099.35937500, mean_dist=3.49923897, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 54600:, hard_loss_metric=0.49385747, full_loss_metric=0.21194389, full_loss_num=63869.59375000, mean_dist=3.48919463, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 54700:, hard_loss_metric=0.48756626, full_loss_metric=0.21222441, full_loss_num=61327.76953125, mean_dist=3.50974584, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.929
+
+iter 54800:, hard_loss_metric=0.48835000, full_loss_metric=0.21189527, full_loss_num=61194.50000000, mean_dist=3.51695347, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 54900:, hard_loss_metric=0.48679951, full_loss_metric=0.21098095, full_loss_num=62127.94140625, mean_dist=3.50665855, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+0:21:46.473217
+iter 55000:, hard_loss_metric=0.48781475, full_loss_metric=0.21186338, full_loss_num=62302.90625000, mean_dist=3.50906706, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 55100:, hard_loss_metric=0.49017802, full_loss_metric=0.21164934, full_loss_num=62002.94140625, mean_dist=3.50513697, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 55200:, hard_loss_metric=0.48789197, full_loss_metric=0.21169044, full_loss_num=62393.60546875, mean_dist=3.49757195, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 55300:, hard_loss_metric=0.49166977, full_loss_metric=0.21191913, full_loss_num=63232.62500000, mean_dist=3.49582529, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 55400:, hard_loss_metric=0.49256879, full_loss_metric=0.21195079, full_loss_num=63007.71875000, mean_dist=3.48941898, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 55500:, hard_loss_metric=0.49075344, full_loss_metric=0.21251863, full_loss_num=62334.30859375, mean_dist=3.50228143, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.928
+
+iter 55600:, hard_loss_metric=0.48745751, full_loss_metric=0.21092552, full_loss_num=63064.62500000, mean_dist=3.49567485, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 55700:, hard_loss_metric=0.48653573, full_loss_metric=0.21182923, full_loss_num=61596.44921875, mean_dist=3.51573801, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.930
+
+iter 55800:, hard_loss_metric=0.48883995, full_loss_metric=0.21180820, full_loss_num=63268.75000000, mean_dist=3.49921989, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 55900:, hard_loss_metric=0.48937073, full_loss_metric=0.21155594, full_loss_num=63984.84375000, mean_dist=3.49885035, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+0:21:48.501657
+iter 56000:, hard_loss_metric=0.48543370, full_loss_metric=0.21155366, full_loss_num=60807.49609375, mean_dist=3.52808785, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 56100:, hard_loss_metric=0.48396507, full_loss_metric=0.21100378, full_loss_num=62603.92187500, mean_dist=3.51356983, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 56200:, hard_loss_metric=0.48718184, full_loss_metric=0.21151544, full_loss_num=62944.54687500, mean_dist=3.50871515, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 56300:, hard_loss_metric=0.48728359, full_loss_metric=0.21226254, full_loss_num=62296.46484375, mean_dist=3.51629210, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 56400:, hard_loss_metric=0.48754573, full_loss_metric=0.21235758, full_loss_num=61369.66015625, mean_dist=3.52157116, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 56500:, hard_loss_metric=0.48927101, full_loss_metric=0.21225192, full_loss_num=63037.78125000, mean_dist=3.51349711, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 56600:, hard_loss_metric=0.48763353, full_loss_metric=0.21168305, full_loss_num=63583.32031250, mean_dist=3.50537777, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 56700:, hard_loss_metric=0.48863366, full_loss_metric=0.21205179, full_loss_num=62117.10156250, mean_dist=3.52195001, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 56800:, hard_loss_metric=0.48894188, full_loss_metric=0.21181756, full_loss_num=63457.23046875, mean_dist=3.49706888, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 56900:, hard_loss_metric=0.48456031, full_loss_metric=0.21101195, full_loss_num=62104.80468750, mean_dist=3.51463127, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+0:21:46.341117
+iter 57000:, hard_loss_metric=0.48819730, full_loss_metric=0.21131794, full_loss_num=63971.97656250, mean_dist=3.50057149, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 57100:, hard_loss_metric=0.48336738, full_loss_metric=0.21099178, full_loss_num=61780.71484375, mean_dist=3.52438140, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 57200:, hard_loss_metric=0.48575401, full_loss_metric=0.21156307, full_loss_num=62384.83984375, mean_dist=3.51812267, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 57300:, hard_loss_metric=0.48768494, full_loss_metric=0.21313938, full_loss_num=62030.19531250, mean_dist=3.53579569, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 57400:, hard_loss_metric=0.48727426, full_loss_metric=0.21174745, full_loss_num=62286.42187500, mean_dist=3.51979613, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 57500:, hard_loss_metric=0.48892194, full_loss_metric=0.21189108, full_loss_num=63669.66015625, mean_dist=3.50518608, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 57600:, hard_loss_metric=0.48567069, full_loss_metric=0.21149521, full_loss_num=62289.22656250, mean_dist=3.53253055, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 57700:, hard_loss_metric=0.48325303, full_loss_metric=0.21152532, full_loss_num=61843.22656250, mean_dist=3.52880287, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 57800:, hard_loss_metric=0.48426116, full_loss_metric=0.21153532, full_loss_num=63142.60546875, mean_dist=3.51380372, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 57900:, hard_loss_metric=0.48549533, full_loss_metric=0.21125893, full_loss_num=62390.16406250, mean_dist=3.52170038, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+0:21:46.819486
+iter 58000:, hard_loss_metric=0.48761725, full_loss_metric=0.21182889, full_loss_num=63337.83984375, mean_dist=3.52503276, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 58100:, hard_loss_metric=0.48665234, full_loss_metric=0.21203886, full_loss_num=61933.55859375, mean_dist=3.52725506, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 58200:, hard_loss_metric=0.48648536, full_loss_metric=0.21105793, full_loss_num=62975.77343750, mean_dist=3.51009989, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 58300:, hard_loss_metric=0.48750800, full_loss_metric=0.21137601, full_loss_num=62157.10546875, mean_dist=3.51647043, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 58400:, hard_loss_metric=0.48562309, full_loss_metric=0.21154772, full_loss_num=62313.62890625, mean_dist=3.51465058, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 58500:, hard_loss_metric=0.48581827, full_loss_metric=0.21115795, full_loss_num=63158.23828125, mean_dist=3.51420951, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 58600:, hard_loss_metric=0.48426190, full_loss_metric=0.21143246, full_loss_num=62901.19921875, mean_dist=3.52990651, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 58700:, hard_loss_metric=0.48746806, full_loss_metric=0.21193777, full_loss_num=63101.12890625, mean_dist=3.52563667, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 58800:, hard_loss_metric=0.48662332, full_loss_metric=0.21158382, full_loss_num=63485.99609375, mean_dist=3.52212882, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 58900:, hard_loss_metric=0.48498738, full_loss_metric=0.21141756, full_loss_num=63569.48046875, mean_dist=3.52078557, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+0:21:48.998770
+iter 59000:, hard_loss_metric=0.48421550, full_loss_metric=0.21228342, full_loss_num=62206.47656250, mean_dist=3.53966308, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.932
+
+iter 59100:, hard_loss_metric=0.48616841, full_loss_metric=0.21102408, full_loss_num=61814.26171875, mean_dist=3.53049231, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 59200:, hard_loss_metric=0.48841107, full_loss_metric=0.21248707, full_loss_num=63115.58984375, mean_dist=3.53025913, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 59300:, hard_loss_metric=0.48229003, full_loss_metric=0.21183878, full_loss_num=61083.08593750, mean_dist=3.54183197, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 59400:, hard_loss_metric=0.48317987, full_loss_metric=0.21037360, full_loss_num=63776.41406250, mean_dist=3.50574279, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 59500:, hard_loss_metric=0.48242134, full_loss_metric=0.21163931, full_loss_num=61448.79687500, mean_dist=3.54566741, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 59600:, hard_loss_metric=0.48770615, full_loss_metric=0.21213879, full_loss_num=61934.94140625, mean_dist=3.53164315, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 59700:, hard_loss_metric=0.48200458, full_loss_metric=0.21150751, full_loss_num=63103.12890625, mean_dist=3.53294492, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 59800:, hard_loss_metric=0.48383388, full_loss_metric=0.21154648, full_loss_num=62522.25390625, mean_dist=3.52382970, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 59900:, hard_loss_metric=0.48076510, full_loss_metric=0.21088199, full_loss_num=63004.66406250, mean_dist=3.51953197, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+0:21:47.052353
+iter 60000:, hard_loss_metric=0.48845205, full_loss_metric=0.21244743, full_loss_num=63396.67187500, mean_dist=3.53512239, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.931
+
+iter 60100:, hard_loss_metric=0.48201889, full_loss_metric=0.21099624, full_loss_num=61654.81640625, mean_dist=3.53685403, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 60200:, hard_loss_metric=0.48277515, full_loss_metric=0.21182287, full_loss_num=60763.96875000, mean_dist=3.54410982, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 60300:, hard_loss_metric=0.48025075, full_loss_metric=0.21192347, full_loss_num=60819.23437500, mean_dist=3.54890084, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 60400:, hard_loss_metric=0.47879973, full_loss_metric=0.21100478, full_loss_num=61423.36328125, mean_dist=3.54677653, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 60500:, hard_loss_metric=0.47909987, full_loss_metric=0.21157902, full_loss_num=60978.98046875, mean_dist=3.56202078, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 60600:, hard_loss_metric=0.48140597, full_loss_metric=0.21192048, full_loss_num=62295.58593750, mean_dist=3.54339695, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 60700:, hard_loss_metric=0.48402318, full_loss_metric=0.21140482, full_loss_num=63032.23828125, mean_dist=3.52539635, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 60800:, hard_loss_metric=0.48124927, full_loss_metric=0.21121275, full_loss_num=62702.69531250, mean_dist=3.53523016, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 60900:, hard_loss_metric=0.48164380, full_loss_metric=0.21176746, full_loss_num=61468.37890625, mean_dist=3.55260324, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+0:21:45.900146
+iter 61000:, hard_loss_metric=0.48114896, full_loss_metric=0.21157715, full_loss_num=62033.13671875, mean_dist=3.54695010, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 61100:, hard_loss_metric=0.48555773, full_loss_metric=0.21151118, full_loss_num=62529.12500000, mean_dist=3.52897072, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 61200:, hard_loss_metric=0.48124087, full_loss_metric=0.21072127, full_loss_num=62012.87500000, mean_dist=3.52872539, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 61300:, hard_loss_metric=0.48008072, full_loss_metric=0.21134762, full_loss_num=61526.82031250, mean_dist=3.55282593, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 61400:, hard_loss_metric=0.47868964, full_loss_metric=0.21064743, full_loss_num=60491.57031250, mean_dist=3.55105400, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.934
+
+iter 61500:, hard_loss_metric=0.48368016, full_loss_metric=0.21149023, full_loss_num=62510.05078125, mean_dist=3.53326273, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 61600:, hard_loss_metric=0.48112160, full_loss_metric=0.21185550, full_loss_num=61174.55078125, mean_dist=3.55467963, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 61700:, hard_loss_metric=0.48103538, full_loss_metric=0.21121077, full_loss_num=62520.53125000, mean_dist=3.55462074, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 61800:, hard_loss_metric=0.48162988, full_loss_metric=0.21195298, full_loss_num=61130.05859375, mean_dist=3.56617260, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 61900:, hard_loss_metric=0.48290032, full_loss_metric=0.21088968, full_loss_num=63252.85937500, mean_dist=3.53823876, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+0:21:44.142999
+iter 62000:, hard_loss_metric=0.48262492, full_loss_metric=0.21226831, full_loss_num=62096.78125000, mean_dist=3.56093359, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 62100:, hard_loss_metric=0.48153445, full_loss_metric=0.21163374, full_loss_num=63088.39453125, mean_dist=3.55031919, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 62200:, hard_loss_metric=0.47831288, full_loss_metric=0.21070768, full_loss_num=61893.55468750, mean_dist=3.55702972, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 62300:, hard_loss_metric=0.48192051, full_loss_metric=0.21128611, full_loss_num=63283.82031250, mean_dist=3.55502558, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 62400:, hard_loss_metric=0.47660351, full_loss_metric=0.21060757, full_loss_num=61439.74609375, mean_dist=3.56756258, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 62500:, hard_loss_metric=0.48004809, full_loss_metric=0.21194726, full_loss_num=61269.16406250, mean_dist=3.56743979, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 62600:, hard_loss_metric=0.48509341, full_loss_metric=0.21281400, full_loss_num=62835.87500000, mean_dist=3.55929255, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 62700:, hard_loss_metric=0.47902662, full_loss_metric=0.21114835, full_loss_num=62261.40625000, mean_dist=3.55837393, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 62800:, hard_loss_metric=0.48286325, full_loss_metric=0.21154293, full_loss_num=63384.58593750, mean_dist=3.54116297, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.935
+
+iter 62900:, hard_loss_metric=0.48099244, full_loss_metric=0.21147558, full_loss_num=62757.66406250, mean_dist=3.54400277, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+0:21:42.560552
+iter 63000:, hard_loss_metric=0.48067376, full_loss_metric=0.21143329, full_loss_num=61758.48046875, mean_dist=3.56030178, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 63100:, hard_loss_metric=0.47681430, full_loss_metric=0.21149410, full_loss_num=61001.37890625, mean_dist=3.57914424, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+iter 63200:, hard_loss_metric=0.47689846, full_loss_metric=0.21117406, full_loss_num=61616.19921875, mean_dist=3.55537391, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 63300:, hard_loss_metric=0.48243091, full_loss_metric=0.21173012, full_loss_num=62763.92578125, mean_dist=3.55122662, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 63400:, hard_loss_metric=0.47751942, full_loss_metric=0.21049638, full_loss_num=63382.89453125, mean_dist=3.55384731, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 63500:, hard_loss_metric=0.48257950, full_loss_metric=0.21185406, full_loss_num=62309.03906250, mean_dist=3.55192637, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 63600:, hard_loss_metric=0.48040685, full_loss_metric=0.21199355, full_loss_num=61617.49609375, mean_dist=3.56567383, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 63700:, hard_loss_metric=0.47757494, full_loss_metric=0.21106263, full_loss_num=62125.88671875, mean_dist=3.56635141, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 63800:, hard_loss_metric=0.48129883, full_loss_metric=0.21236917, full_loss_num=61136.21093750, mean_dist=3.57549477, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 63900:, hard_loss_metric=0.48028624, full_loss_metric=0.21170096, full_loss_num=61980.50000000, mean_dist=3.56158257, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+0:21:40.781117
+iter 64000:, hard_loss_metric=0.47879523, full_loss_metric=0.21134377, full_loss_num=61481.21875000, mean_dist=3.55897617, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 64100:, hard_loss_metric=0.48041996, full_loss_metric=0.21167552, full_loss_num=62764.50000000, mean_dist=3.56383705, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 64200:, hard_loss_metric=0.47706410, full_loss_metric=0.21038219, full_loss_num=62455.89453125, mean_dist=3.55285454, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.944
+
+iter 64300:, hard_loss_metric=0.47664878, full_loss_metric=0.21142298, full_loss_num=61102.40625000, mean_dist=3.57301021, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 64400:, hard_loss_metric=0.48043185, full_loss_metric=0.21204437, full_loss_num=61844.44531250, mean_dist=3.57060051, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 64500:, hard_loss_metric=0.47860265, full_loss_metric=0.21136782, full_loss_num=61868.62109375, mean_dist=3.56529140, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 64600:, hard_loss_metric=0.47693074, full_loss_metric=0.21097410, full_loss_num=61345.13671875, mean_dist=3.57197475, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 64700:, hard_loss_metric=0.47953078, full_loss_metric=0.21196854, full_loss_num=61109.56640625, mean_dist=3.56763101, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 64800:, hard_loss_metric=0.47794437, full_loss_metric=0.21152414, full_loss_num=62990.07812500, mean_dist=3.57327247, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 64900:, hard_loss_metric=0.47726655, full_loss_metric=0.21156204, full_loss_num=60990.84375000, mean_dist=3.57217884, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+0:21:40.238655
+iter 65000:, hard_loss_metric=0.47783685, full_loss_metric=0.21124485, full_loss_num=61662.69921875, mean_dist=3.56526089, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 65100:, hard_loss_metric=0.47672069, full_loss_metric=0.21118805, full_loss_num=62313.14062500, mean_dist=3.56104183, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 65200:, hard_loss_metric=0.47882757, full_loss_metric=0.21207753, full_loss_num=61635.81640625, mean_dist=3.58738852, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 65300:, hard_loss_metric=0.48111320, full_loss_metric=0.21150120, full_loss_num=62227.92187500, mean_dist=3.55622983, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 65400:, hard_loss_metric=0.48051754, full_loss_metric=0.21216445, full_loss_num=62591.80468750, mean_dist=3.56797385, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.944
+
+iter 65500:, hard_loss_metric=0.47743812, full_loss_metric=0.21125241, full_loss_num=61980.58593750, mean_dist=3.56604362, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.933
+
+iter 65600:, hard_loss_metric=0.47935277, full_loss_metric=0.21141230, full_loss_num=62334.98828125, mean_dist=3.57207012, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 65700:, hard_loss_metric=0.47702301, full_loss_metric=0.21154501, full_loss_num=61292.30078125, mean_dist=3.58459878, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 65800:, hard_loss_metric=0.47911072, full_loss_metric=0.21163613, full_loss_num=62084.82031250, mean_dist=3.57252693, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 65900:, hard_loss_metric=0.47806567, full_loss_metric=0.21201357, full_loss_num=62015.59375000, mean_dist=3.58632183, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.936
+
+0:21:38.231381
+iter 66000:, hard_loss_metric=0.47665936, full_loss_metric=0.21052921, full_loss_num=62454.94140625, mean_dist=3.57196736, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 66100:, hard_loss_metric=0.47660229, full_loss_metric=0.21154521, full_loss_num=61129.11328125, mean_dist=3.58444977, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 66200:, hard_loss_metric=0.47662601, full_loss_metric=0.21115938, full_loss_num=60597.83984375, mean_dist=3.58054590, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 66300:, hard_loss_metric=0.47735560, full_loss_metric=0.21182162, full_loss_num=61367.97656250, mean_dist=3.58724546, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 66400:, hard_loss_metric=0.47364086, full_loss_metric=0.21139766, full_loss_num=60766.71484375, mean_dist=3.57975125, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 66500:, hard_loss_metric=0.47610864, full_loss_metric=0.21150532, full_loss_num=61855.79687500, mean_dist=3.58611178, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 66600:, hard_loss_metric=0.47763324, full_loss_metric=0.21115124, full_loss_num=62506.32031250, mean_dist=3.56429267, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 66700:, hard_loss_metric=0.47831631, full_loss_metric=0.21172135, full_loss_num=62207.24609375, mean_dist=3.57558250, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 66800:, hard_loss_metric=0.47517830, full_loss_metric=0.21166636, full_loss_num=60832.03125000, mean_dist=3.58994293, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 66900:, hard_loss_metric=0.47441003, full_loss_metric=0.21103048, full_loss_num=61340.60156250, mean_dist=3.58546162, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+0:21:39.662001
+iter 67000:, hard_loss_metric=0.47389859, full_loss_metric=0.21075821, full_loss_num=61182.96484375, mean_dist=3.58654165, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 67100:, hard_loss_metric=0.47731635, full_loss_metric=0.21194561, full_loss_num=61766.67187500, mean_dist=3.58340454, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 67200:, hard_loss_metric=0.47543907, full_loss_metric=0.21146210, full_loss_num=60649.62109375, mean_dist=3.58905888, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 67300:, hard_loss_metric=0.47645265, full_loss_metric=0.21147242, full_loss_num=60699.60156250, mean_dist=3.59516716, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 67400:, hard_loss_metric=0.47444952, full_loss_metric=0.21071769, full_loss_num=61514.50000000, mean_dist=3.58565855, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 67500:, hard_loss_metric=0.47499770, full_loss_metric=0.21187647, full_loss_num=60849.69531250, mean_dist=3.59920144, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 67600:, hard_loss_metric=0.47541523, full_loss_metric=0.21147878, full_loss_num=61440.93359375, mean_dist=3.59650135, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 67700:, hard_loss_metric=0.47356832, full_loss_metric=0.21167675, full_loss_num=60760.45312500, mean_dist=3.59988928, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 67800:, hard_loss_metric=0.47718909, full_loss_metric=0.21205978, full_loss_num=61467.40625000, mean_dist=3.59430218, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 67900:, hard_loss_metric=0.47670323, full_loss_metric=0.21140431, full_loss_num=62154.17578125, mean_dist=3.58603311, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+0:21:38.238631
+iter 68000:, hard_loss_metric=0.47467718, full_loss_metric=0.21146207, full_loss_num=61434.08984375, mean_dist=3.58804798, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.937
+
+iter 68100:, hard_loss_metric=0.47184086, full_loss_metric=0.21026911, full_loss_num=60576.16406250, mean_dist=3.59594584, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 68200:, hard_loss_metric=0.47480601, full_loss_metric=0.21227741, full_loss_num=61147.23828125, mean_dist=3.60870814, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 68300:, hard_loss_metric=0.47453222, full_loss_metric=0.21156725, full_loss_num=61316.19531250, mean_dist=3.59306312, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.941
+
+iter 68400:, hard_loss_metric=0.47523457, full_loss_metric=0.21160561, full_loss_num=61760.05078125, mean_dist=3.58629704, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.938
+
+iter 68500:, hard_loss_metric=0.47637570, full_loss_metric=0.21156447, full_loss_num=61345.10156250, mean_dist=3.58944511, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+iter 68600:, hard_loss_metric=0.47305077, full_loss_metric=0.21136732, full_loss_num=61098.08593750, mean_dist=3.59860253, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 68700:, hard_loss_metric=0.47358850, full_loss_metric=0.21123260, full_loss_num=60444.82031250, mean_dist=3.59555840, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.944
+
+iter 68800:, hard_loss_metric=0.47290298, full_loss_metric=0.21110304, full_loss_num=61376.52343750, mean_dist=3.59300709, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.945
+
+iter 68900:, hard_loss_metric=0.47586691, full_loss_metric=0.21169299, full_loss_num=61625.12890625, mean_dist=3.59878778, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+0:21:36.868002
+iter 69000:, hard_loss_metric=0.47368759, full_loss_metric=0.21134199, full_loss_num=61847.36328125, mean_dist=3.59675789, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.940
+
+iter 69100:, hard_loss_metric=0.47050270, full_loss_metric=0.21050666, full_loss_num=61164.12500000, mean_dist=3.59983754, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.944
+
+iter 69200:, hard_loss_metric=0.47234619, full_loss_metric=0.21162605, full_loss_num=61390.26953125, mean_dist=3.60874820, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 69300:, hard_loss_metric=0.47539344, full_loss_metric=0.21198192, full_loss_num=61604.06640625, mean_dist=3.59871650, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 69400:, hard_loss_metric=0.47171795, full_loss_metric=0.21087863, full_loss_num=60416.73046875, mean_dist=3.60601163, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 69500:, hard_loss_metric=0.47120056, full_loss_metric=0.21160999, full_loss_num=60555.69921875, mean_dist=3.61704993, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 69600:, hard_loss_metric=0.47652328, full_loss_metric=0.21088991, full_loss_num=63815.45312500, mean_dist=3.57653046, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.942
+
+iter 69700:, hard_loss_metric=0.46883312, full_loss_metric=0.21112114, full_loss_num=61459.14062500, mean_dist=3.62101126, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.943
+
+iter 69800:, hard_loss_metric=0.47579253, full_loss_metric=0.21171193, full_loss_num=61455.09375000, mean_dist=3.59791374, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.944
+
+iter 69900:, hard_loss_metric=0.47170413, full_loss_metric=0.21142076, full_loss_num=61439.75000000, mean_dist=3.59509921, cse_loss_num=nan, lr=0.000300, hard or full='full', correct=0.939
+
+0:21:36.456871
+iter 70000:, hard_loss_metric=0.47114623, full_loss_metric=0.21115482, full_loss_num=61524.17187500, mean_dist=3.60352898, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.944
+
+iter 70100:, hard_loss_metric=0.44444436, full_loss_metric=0.20337209, full_loss_num=59618.64453125, mean_dist=3.55053234, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 70200:, hard_loss_metric=0.43135667, full_loss_metric=0.19809780, full_loss_num=60375.25000000, mean_dist=3.44215536, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 70300:, hard_loss_metric=0.42601734, full_loss_metric=0.19401272, full_loss_num=61447.75000000, mean_dist=3.33438754, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 70400:, hard_loss_metric=0.41704261, full_loss_metric=0.18989938, full_loss_num=61478.85546875, mean_dist=3.24932551, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 70500:, hard_loss_metric=0.41292477, full_loss_metric=0.18652521, full_loss_num=62844.76171875, mean_dist=3.16549373, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 70600:, hard_loss_metric=0.40417907, full_loss_metric=0.18217625, full_loss_num=62514.35546875, mean_dist=3.09131479, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.951
+
+iter 70700:, hard_loss_metric=0.40145370, full_loss_metric=0.18014437, full_loss_num=63944.37500000, mean_dist=3.02198124, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.950
+
+iter 70800:, hard_loss_metric=0.39979607, full_loss_metric=0.17737579, full_loss_num=67309.03125000, mean_dist=2.93028665, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 70900:, hard_loss_metric=0.39577353, full_loss_metric=0.17503053, full_loss_num=67770.20312500, mean_dist=2.88826871, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+0:21:38.696521
+iter 71000:, hard_loss_metric=0.38767147, full_loss_metric=0.17074600, full_loss_num=68545.15625000, mean_dist=2.81611323, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.950
+
+iter 71100:, hard_loss_metric=0.38434350, full_loss_metric=0.16849983, full_loss_num=69133.46875000, mean_dist=2.75991821, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 71200:, hard_loss_metric=0.38262680, full_loss_metric=0.16673481, full_loss_num=70853.13281250, mean_dist=2.70764256, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 71300:, hard_loss_metric=0.37943825, full_loss_metric=0.16481827, full_loss_num=71325.68750000, mean_dist=2.65360475, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 71400:, hard_loss_metric=0.37650785, full_loss_metric=0.16227204, full_loss_num=72069.69531250, mean_dist=2.60352969, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 71500:, hard_loss_metric=0.37352470, full_loss_metric=0.16053420, full_loss_num=73110.78906250, mean_dist=2.57065487, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.950
+
+iter 71600:, hard_loss_metric=0.37271526, full_loss_metric=0.15882839, full_loss_num=75094.17187500, mean_dist=2.51530766, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 71700:, hard_loss_metric=0.36918908, full_loss_metric=0.15757777, full_loss_num=75300.49218750, mean_dist=2.48966694, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 71800:, hard_loss_metric=0.36973283, full_loss_metric=0.15611191, full_loss_num=76207.75781250, mean_dist=2.44498849, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 71900:, hard_loss_metric=0.36671641, full_loss_metric=0.15439962, full_loss_num=76848.18750000, mean_dist=2.40157461, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+0:21:38.351307
+iter 72000:, hard_loss_metric=0.36051810, full_loss_metric=0.15165716, full_loss_num=78127.52343750, mean_dist=2.36606526, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 72100:, hard_loss_metric=0.36182019, full_loss_metric=0.15104459, full_loss_num=79797.65625000, mean_dist=2.33546138, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 72200:, hard_loss_metric=0.36091623, full_loss_metric=0.15024088, full_loss_num=80901.86718750, mean_dist=2.29753280, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 72300:, hard_loss_metric=0.35865691, full_loss_metric=0.14871410, full_loss_num=80861.60937500, mean_dist=2.27262568, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.946
+
+iter 72400:, hard_loss_metric=0.35668498, full_loss_metric=0.14718893, full_loss_num=81565.86718750, mean_dist=2.24152017, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.949
+
+iter 72500:, hard_loss_metric=0.35595879, full_loss_metric=0.14674772, full_loss_num=81699.99218750, mean_dist=2.21751857, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 72600:, hard_loss_metric=0.35612774, full_loss_metric=0.14528048, full_loss_num=83631.24218750, mean_dist=2.18918133, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 72700:, hard_loss_metric=0.35363942, full_loss_metric=0.14422221, full_loss_num=83521.07812500, mean_dist=2.16801286, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 72800:, hard_loss_metric=0.35523620, full_loss_metric=0.14383797, full_loss_num=85459.89062500, mean_dist=2.13352919, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.946
+
+iter 72900:, hard_loss_metric=0.35308024, full_loss_metric=0.14301895, full_loss_num=85678.28125000, mean_dist=2.12322545, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.951
+
+0:21:39.050571
+iter 73000:, hard_loss_metric=0.35164061, full_loss_metric=0.14173485, full_loss_num=86212.03125000, mean_dist=2.09506202, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.945
+
+iter 73100:, hard_loss_metric=0.35336629, full_loss_metric=0.14162710, full_loss_num=86404.36718750, mean_dist=2.07597971, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
+iter 73200:, hard_loss_metric=0.35292339, full_loss_metric=0.14084849, full_loss_num=88835.71875000, mean_dist=2.05297661, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.945
+
+iter 73300:, hard_loss_metric=0.35241511, full_loss_metric=0.14022897, full_loss_num=87611.64062500, mean_dist=2.04535675, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 73400:, hard_loss_metric=0.35158581, full_loss_metric=0.13941628, full_loss_num=88702.35156250, mean_dist=2.01731420, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.946
+
+iter 73500:, hard_loss_metric=0.35401475, full_loss_metric=0.13945711, full_loss_num=90930.04687500, mean_dist=1.99989808, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.947
+
+iter 73600:, hard_loss_metric=0.35352761, full_loss_metric=0.13885027, full_loss_num=90020.56250000, mean_dist=1.98689210, cse_loss_num=nan, lr=0.000050, hard or full='full', correct=0.948
+
